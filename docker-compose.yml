@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  whatsapp-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: whatsapp_bot_vault
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/api/system/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

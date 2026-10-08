@@ -1,0 +1,522 @@
+[
+  {
+    "id": "b843056f-9db6-48e4-9b1e-502a4bcbe78b",
+    "timestamp": "2026-10-08T17:18:15.690Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "c1183530-e8e2-4ce2-8019-ed4d6b34b13c",
+    "timestamp": "2026-10-08T17:15:50.064Z",
+    "event": "Status Saved",
+    "details": "Saved status from ~Davin (video)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "532c9b6a-c473-4739-8571-b0bd6e88761b",
+    "timestamp": "2026-10-08T17:15:50.063Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded video (1344.6 KB) from ~Davin",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "5a24a94e-97e3-4e09-a069-bbe7fa595cc2",
+    "timestamp": "2026-10-08T17:15:27.302Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded photo (62.6 KB) from t",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "5b8295d0-d2fc-4929-b4d0-d65de31be857",
+    "timestamp": "2026-10-08T17:14:26.359Z",
+    "event": "Status Saved",
+    "details": "Saved status from ~Davin (text)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ec3adfef-da30-41d8-b630-cad29b54cc06",
+    "timestamp": "2026-10-08T17:12:47.304Z",
+    "event": "Status Saved",
+    "details": "Saved status from ~Davin (video)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "e67a6e84-e83a-4cb1-bc1e-9ff85ea4d974",
+    "timestamp": "2026-10-08T17:12:47.304Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded video (991.1 KB) from ~Davin",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "31c60b25-9d93-4884-96c6-31dcaa35d97e",
+    "timestamp": "2026-10-08T17:12:37.288Z",
+    "event": "Status Saved",
+    "details": "Saved status from ~Davin (text)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "11fb4627-654a-400e-803d-81a226b3a3d4",
+    "timestamp": "2026-10-08T17:12:27.844Z",
+    "event": "Status Saved",
+    "details": "Saved status from ~Davin (video)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "5d0ef2e2-6b4d-437b-8889-8e3030d708d2",
+    "timestamp": "2026-10-08T17:12:27.843Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded video (991.1 KB) from ~Davin",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "18e0aa5d-d1e7-436c-a3f1-d24f3de15b84",
+    "timestamp": "2026-10-08T17:12:08.759Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (55.6 KB) from Slobodan Milosevic",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a7d841ec-2615-4d1e-baa7-03c3b0dff808",
+    "timestamp": "2026-10-08T17:11:57.203Z",
+    "event": "Deleted Message Captured",
+    "details": "Captured deleted message ID AC794878D9A10F14F61A8B215B767BFC from 120363404121387094",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "b845918f-8e93-4ee2-a7d4-8ebcaf7a92e2",
+    "timestamp": "2026-10-08T17:11:51.567Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (437.8 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a390f16d-1304-4b05-aa25-8efde7c641de",
+    "timestamp": "2026-10-08T17:10:38.818Z",
+    "event": "Deleted Message Captured",
+    "details": "Captured deleted message ID A5230CD2F761276171945DAA008FA631 from Asep",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "158114f3-25de-4a1c-8d8d-8812c862bc86",
+    "timestamp": "2026-10-08T17:10:31.049Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (55.6 KB) from Slobodan Milosevic",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "390dfcd3-7dfa-4fc2-9155-6bba7413d76a",
+    "timestamp": "2026-10-08T17:09:13.666Z",
+    "event": "Message Sent",
+    "details": "Sent text to 102439617319125@lid",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "9b2655b4-e574-429a-b574-868a71f9156d",
+    "timestamp": "2026-10-08T17:08:00.579Z",
+    "event": "WhatsApp Connected",
+    "details": "Account 6289519450908 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ad326e42-4a6b-44d2-82ba-8a2076c78a97",
+    "timestamp": "2026-10-08T17:07:48.342Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 515. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "1793ae20-d1cb-4de7-96f2-63ae52a4473c",
+    "timestamp": "2026-10-08T17:07:24.509Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: R69B-E4K2 untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "fca95967-64bc-44dc-875f-06deb7452d14",
+    "timestamp": "2026-10-08T17:07:08.102Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "fad23247-cb9a-4b9e-97f4-c913f56a366b",
+    "timestamp": "2026-10-08T17:06:45.789Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "0c90a0a9-11c2-4743-844f-63cb4b3a396e",
+    "timestamp": "2026-10-08T17:06:14.667Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: 3JEN-6DYN untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a9d0ced2-6266-44f5-8f29-eba86bc5891c",
+    "timestamp": "2026-10-08T17:05:41.023Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "a7f9c371-6e77-4d97-9779-52cd6dd72bd2",
+    "timestamp": "2026-10-08T17:04:23.562Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 515. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "2541e220-143f-4ad8-af95-7766e8020496",
+    "timestamp": "2026-10-08T17:03:50.601Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: NNZ4-5RWT untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "b7cd61c8-c06a-4b43-b4cd-4a85e55d7fab",
+    "timestamp": "2026-10-08T17:03:39.368Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "a05b7f1c-df96-422a-8eae-d1fc78ed4ece",
+    "timestamp": "2026-10-08T17:03:39.187Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: AA38-JQ9G untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ac7ef751-ed71-4c0f-af57-3374fef55def",
+    "timestamp": "2026-10-08T17:03:31.513Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: CWSY-KKE5 untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "3027e10c-cef3-46cd-9e39-842bd65f0304",
+    "timestamp": "2026-10-08T17:03:27.169Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "b3485adb-b97b-46d0-8312-dd614aac6dd7",
+    "timestamp": "2026-10-08T17:02:16.771Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: Y355-9H4R untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "b0fc2407-5e87-4ebd-abb0-58d1aaa9b934",
+    "timestamp": "2026-10-08T17:02:02.560Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "ae460f52-80a4-4558-9e4d-05a54e9e8737",
+    "timestamp": "2026-10-08T17:02:01.143Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: PDZP-HDPP untuk nomor +6289519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "e645c556-bfc3-4f66-b504-b1fd31a7450c",
+    "timestamp": "2026-10-08T17:00:42.234Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: AWMS-95ES untuk nomor +089519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "519fd92e-bdea-41dc-b3da-0753ddb19832",
+    "timestamp": "2026-10-08T17:00:26.554Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "b721ec30-1cec-457a-b84b-80bffe1b41df",
+    "timestamp": "2026-10-08T17:00:22.871Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "3928244a-2501-4c23-b175-5436ec153a7b",
+    "timestamp": "2026-10-08T16:59:54.297Z",
+    "event": "Pairing Code Ready",
+    "details": "Kode pairing: Q4FG-Y2PE untuk nomor +6281234567890",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "950a16e6-2a53-4e75-ba38-d09b4230b495",
+    "timestamp": "2026-10-08T16:57:23.401Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "6172668b-d865-483f-ba38-f23f8bc86fe0",
+    "timestamp": "2026-10-08T16:57:07.308Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "15b0328e-c1e3-4661-92a2-c22802a17f9d",
+    "timestamp": "2026-10-08T16:55:28.253Z",
+    "event": "Pairing Code Error",
+    "details": "Failed to request code: Connection Closed",
+    "severity": "ERROR",
+    "source": "BOT"
+  },
+  {
+    "id": "2a1b0edf-55fe-4bf0-829f-f07813de2e7b",
+    "timestamp": "2026-10-08T16:55:26.403Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "52146b24-10d2-4e2f-bd90-1d0def5d8953",
+    "timestamp": "2026-10-08T16:54:45.098Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: WFJXQPGH for phone 089519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a1d6f8ff-4b29-489b-8ec6-7315f3889485",
+    "timestamp": "2026-10-08T16:54:19.746Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "81666442-4c8d-466d-ac5b-39f3c845cdd5",
+    "timestamp": "2026-10-08T16:54:15.856Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "487653e9-4d2d-4f2b-ab54-0b13f26806f3",
+    "timestamp": "2026-10-08T16:54:05.285Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: WAH78Q9N for phone 089519450908",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "6d6beab1-cdca-4e59-81b6-1685b517af99",
+    "timestamp": "2026-10-08T16:54:00.780Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "50263265-bc70-4e80-a7a6-486d34605758",
+    "timestamp": "2026-10-08T16:53:54.923Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "d3a5dccd-eea9-4b26-8e75-c5ef31e56218",
+    "timestamp": "2026-10-08T16:53:01.549Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "39383e6a-fc54-421f-a9ff-941120be251c",
+    "timestamp": "2026-10-08T16:50:49.489Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "e158ba77-722e-43a5-a1c8-2d5625a915b8",
+    "timestamp": "2026-10-08T16:49:50.333Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "655571be-2038-4202-a11c-ca2bfc2bae77",
+    "timestamp": "2026-10-08T16:47:38.404Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "b6db359d-6f48-47ed-9ae3-0271bb3e78e3",
+    "timestamp": "2026-10-08T16:46:39.188Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "7ad4d96a-fcc3-4a60-b07c-d5ca35731f4a",
+    "timestamp": "2026-10-08T16:44:27.237Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "52ab2a92-a013-4d53-b85a-3e9c37086376",
+    "timestamp": "2026-10-08T16:43:41.643Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "c1ebba79-a616-4bd7-ad8d-d6b7198faa6b",
+    "timestamp": "2026-10-08T16:41:38.018Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "fd8db1fc-708f-47bc-845a-efc7e00b1c87",
+    "timestamp": "2026-10-08T16:40:56.409Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "4a372ec4-b3a5-49e2-95dc-5c875743bb35",
+    "timestamp": "2026-10-08T16:40:23.569Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "2b2bbbe4-2016-4856-a09b-9511bfa04b77",
+    "timestamp": "2026-10-08T16:40:18.766Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 408. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "63dd196b-ad74-4a22-8180-ce037846c95c",
+    "timestamp": "2026-10-08T16:38:59.793Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: 2S8BV1SA for phone 622260152365",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "bfc9d7df-3275-4489-aa6a-d862d609f0da",
+    "timestamp": "2026-10-08T16:38:54.963Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "9ee235a2-698b-47a6-8a85-870619ab5d37",
+    "timestamp": "2026-10-08T16:38:52.446Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: 2RJ1DY4V for phone 622260152365",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ad9ba747-5cd6-4b83-afb8-64e46fa6b655",
+    "timestamp": "2026-10-08T16:38:18.147Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: QFB3GRTY for phone 622260152365",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "90c0552f-acef-477c-ba00-3c426596d896",
+    "timestamp": "2026-10-08T16:38:13.517Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 401. Should reconnect: false",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "dbb56fba-b218-4bdb-bbe8-ee9e1135664f",
+    "timestamp": "2026-10-08T16:38:11.825Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: VZY57SAG for phone 622260152365",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a4bae1b8-f23a-4fde-9a4b-e9e4b2d92969",
+    "timestamp": "2026-10-08T16:37:40.437Z",
+    "event": "Pairing Code Generated",
+    "details": "Generated pairing code: VRYW57JY for phone 082260152365",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "195b8599-1f45-4684-a028-d32c026ea568",
+    "timestamp": "2026-10-08T16:36:05.825Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  }
+]

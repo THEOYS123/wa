@@ -1,0 +1,29 @@
+[
+  {
+    "id": "diag_test_1791474849589@s.whatsapp.net",
+    "name": "Diagnostic Integrity Test",
+    "isGroup": false,
+    "isArchived": false,
+    "unreadCount": 0,
+    "lastMessageTime": "2026-10-08T15:54:09.589Z",
+    "lastMessageText": "integrity check"
+  },
+  {
+    "id": "test_chat@s.whatsapp.net",
+    "name": "Test Contact",
+    "isGroup": false,
+    "isArchived": false,
+    "unreadCount": 1,
+    "lastMessageTime": "2026-10-08T15:54:09.591Z",
+    "lastMessageText": "Testing auto-save text message ingestion pipeline"
+  },
+  {
+    "id": "antidelete@s.whatsapp.net",
+    "name": "Budi (Target)",
+    "isGroup": false,
+    "isArchived": false,
+    "unreadCount": 1,
+    "lastMessageTime": "2026-10-08T15:54:09.592Z",
+    "lastMessageText": "Pesan rahasia sebelum dihapus pengirim"
+  }
+]

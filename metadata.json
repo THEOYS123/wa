@@ -1,0 +1,6 @@
+{
+  "name": "WhatsApp Bot Monitoring & Management Dashboard",
+  "description": "Real-time WhatsApp Bot Monitoring & Management Dashboard with auto-save all media, view-once recovery, anti-delete archive, status downloader, and live chat management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

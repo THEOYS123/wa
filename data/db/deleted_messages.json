@@ -1,0 +1,14 @@
+[
+  {
+    "id": "3e2b265b-cff1-409c-9469-1dbc1ff78c6c",
+    "messageId": "REVOKE_TEST_1791474849592",
+    "chatId": "antidelete@s.whatsapp.net",
+    "chatName": "Budi (Target)",
+    "senderId": "target@s.whatsapp.net",
+    "senderName": "Budi (Target)",
+    "originalTimestamp": "2026-10-08T15:54:09.592Z",
+    "deletedTimestamp": "2026-10-08T15:54:09.592Z",
+    "messageType": "text",
+    "originalText": "Pesan rahasia sebelum dihapus pengirim"
+  }
+]

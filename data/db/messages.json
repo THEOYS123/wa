@@ -1,0 +1,29 @@
+[
+  {
+    "id": "DIAG_TXT_1791474849591",
+    "chatId": "test_chat@s.whatsapp.net",
+    "senderId": "test_user@s.whatsapp.net",
+    "senderName": "Test Contact",
+    "fromMe": false,
+    "timestamp": "2026-10-08T15:54:09.591Z",
+    "messageType": "text",
+    "textContent": "Testing auto-save text message ingestion pipeline",
+    "isDeleted": false,
+    "isViewOnce": false,
+    "status": "received"
+  },
+  {
+    "id": "REVOKE_TEST_1791474849592",
+    "chatId": "antidelete@s.whatsapp.net",
+    "senderId": "target@s.whatsapp.net",
+    "senderName": "Budi (Target)",
+    "fromMe": false,
+    "timestamp": "2026-10-08T15:54:09.592Z",
+    "messageType": "text",
+    "textContent": "Pesan rahasia sebelum dihapus pengirim",
+    "isDeleted": true,
+    "isViewOnce": false,
+    "status": "received",
+    "deletedAt": "2026-10-08T15:54:09.592Z"
+  }
+]

@@ -160,30 +160,37 @@ export class Database {
     });
 
     // 4. Contacts
+    this.contacts.clear();
     const contactsArr = this.loadFile<Contact[]>('contacts.json', []);
     contactsArr.forEach((c) => this.contacts.set(c.id, c));
 
     // 5. Groups
+    this.groups.clear();
     const groupsArr = this.loadFile<Group[]>('groups.json', []);
     groupsArr.forEach((g) => this.groups.set(g.id, g));
 
     // 6. Chats
+    this.chats.clear();
     const chatsArr = this.loadFile<Chat[]>('chats.json', []);
     chatsArr.forEach((c) => this.chats.set(c.id, c));
 
     // 7. Messages
+    this.messages.clear();
     const msgsArr = this.loadFile<Message[]>('messages.json', []);
     msgsArr.forEach((m) => this.messages.set(m.id, m));
 
     // 8. Deleted Messages
+    this.deletedMessages.clear();
     const delArr = this.loadFile<DeletedMessage[]>('deleted_messages.json', []);
     delArr.forEach((d) => this.deletedMessages.set(d.id, d));
 
     // 9. Media
+    this.mediaItems.clear();
     const mediaArr = this.loadFile<MediaItem[]>('media.json', []);
     mediaArr.forEach((m) => this.mediaItems.set(m.id, m));
 
     // 10. Statuses
+    this.statuses.clear();
     const statusArr = this.loadFile<WhatsAppStatusItem[]>('statuses.json', []);
     statusArr.forEach((s) => this.statuses.set(s.id, s));
 

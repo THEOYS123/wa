@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
-import { downloadMediaMessage, WAMessage } from '@whiskeysockets/baileys';
+import { downloadMediaMessage, downloadContentFromMessage, WAMessage } from '@whiskeysockets/baileys';
 import { db } from '../db/database';
 import { MediaItem, MediaDownloadStatus } from '../db/schema';
 import { realtime } from './realtime';
@@ -73,6 +73,58 @@ class MediaService {
     return '.bin';
   }
 
+  public unwrapMessage(msgContent: any): { unwrapped: any; isViewOnce: boolean } {
+    let isViewOnce = false;
+    let current = msgContent;
+
+    for (let depth = 0; depth < 10; depth++) {
+      if (!current || typeof current !== 'object') break;
+
+      if (current.deviceSentMessage?.message) {
+        current = current.deviceSentMessage.message;
+        continue;
+      }
+      if (current.ephemeralMessage?.message) {
+        current = current.ephemeralMessage.message;
+        continue;
+      }
+      if (current.documentWithCaptionMessage?.message) {
+        current = current.documentWithCaptionMessage.message;
+        continue;
+      }
+      if (current.viewOnceMessage?.message) {
+        isViewOnce = true;
+        current = current.viewOnceMessage.message;
+        continue;
+      }
+      if (current.viewOnceMessageV2?.message) {
+        isViewOnce = true;
+        current = current.viewOnceMessageV2.message;
+        continue;
+      }
+      if (current.viewOnceMessageV2Extension?.message) {
+        isViewOnce = true;
+        current = current.viewOnceMessageV2Extension.message;
+        continue;
+      }
+      if (current.editedMessage?.message?.protocolMessage?.editedMessage) {
+        current = current.editedMessage.message.protocolMessage.editedMessage;
+        continue;
+      }
+      break;
+    }
+
+    if (
+      current?.imageMessage?.viewOnce ||
+      current?.videoMessage?.viewOnce ||
+      current?.audioMessage?.viewOnce
+    ) {
+      isViewOnce = true;
+    }
+
+    return { unwrapped: current || msgContent, isViewOnce };
+  }
+
   public async processAndSaveMedia(
     rawMsg: WAMessage,
     mediaType: 'photo' | 'video' | 'audio' | 'voice' | 'document' | 'sticker' | 'view_once',
@@ -89,6 +141,9 @@ class MediaService {
   ): Promise<MediaItem | null> {
     const settings = db.getSettings();
 
+    const { unwrapped, isViewOnce: unwrappedVO } = this.unwrapMessage(rawMsg.message);
+    const finalIsViewOnce = opts.isViewOnce || unwrappedVO;
+
     // Check settings if saving is enabled
     if (!settings.autoSaveEverything) {
       if (mediaType === 'photo' && !settings.autoSavePhotos) return null;
@@ -96,7 +151,7 @@ class MediaService {
       if ((mediaType === 'audio' || mediaType === 'voice') && !settings.autoSaveAudio) return null;
       if (mediaType === 'document' && !settings.autoSaveDocuments) return null;
       if (mediaType === 'sticker' && !settings.autoSaveStickers) return null;
-      if (opts.isViewOnce && !settings.saveAllViewOnce) {
+      if (finalIsViewOnce && !settings.saveAllViewOnce) {
         if (mediaType === 'photo' && !settings.saveViewOncePhotos) return null;
         if (mediaType === 'video' && !settings.saveViewOnceVideos) return null;
         if (mediaType === 'audio' && !settings.saveViewOnceAudio) return null;
@@ -116,7 +171,7 @@ class MediaService {
       filePath: '',
       mimeType: 'application/octet-stream',
       fileSize: 0,
-      isViewOnce: opts.isViewOnce,
+      isViewOnce: finalIsViewOnce,
       isStatus: opts.isStatus,
       downloadStatus: 'PROCESSING',
       retryCount: 0,
@@ -125,9 +180,47 @@ class MediaService {
 
     db.upsertMedia(initialItem);
 
+    const cleanRawMsg: WAMessage = {
+      ...rawMsg,
+      message: unwrapped,
+    };
+
     try {
-      // Direct download buffer using Baileys
-      const buffer = await downloadMediaMessage(rawMsg, 'buffer', {}, {} as any);
+      let buffer: Buffer | null = null;
+
+      try {
+        buffer = await downloadMediaMessage(cleanRawMsg, 'buffer', {}, {} as any);
+      } catch (primaryErr: any) {
+        const mediaObj =
+          unwrapped?.imageMessage ||
+          unwrapped?.videoMessage ||
+          unwrapped?.audioMessage ||
+          unwrapped?.documentMessage ||
+          unwrapped?.stickerMessage;
+
+        if (mediaObj && (mediaObj.directPath || mediaObj.url)) {
+          const baileyType =
+            mediaType === 'photo'
+              ? 'image'
+              : mediaType === 'video'
+                ? 'video'
+                : mediaType === 'audio' || mediaType === 'voice'
+                  ? (mediaObj.ptt ? 'audio' : 'audio')
+                  : mediaType === 'document'
+                    ? 'document'
+                    : 'sticker';
+
+          const stream = await downloadContentFromMessage(mediaObj, baileyType as any);
+          const chunks: Buffer[] = [];
+          for await (const chunk of stream) {
+            chunks.push(chunk);
+          }
+          buffer = Buffer.concat(chunks);
+        } else {
+          throw primaryErr;
+        }
+      }
+
       if (!buffer || buffer.length === 0) {
         throw new Error('Downloaded buffer is empty or null');
       }
@@ -136,31 +229,21 @@ class MediaService {
       const checksum = crypto.createHash('sha256').update(buffer).digest('hex');
 
       // Determine mime and extension
-      const msgObj = rawMsg.message;
       let mime = 'application/octet-stream';
       let originalFilename = '';
 
-      if (msgObj?.imageMessage?.mimetype) mime = msgObj.imageMessage.mimetype;
-      else if (msgObj?.videoMessage?.mimetype) mime = msgObj.videoMessage.mimetype;
-      else if (msgObj?.audioMessage?.mimetype) mime = msgObj.audioMessage.mimetype;
-      else if (msgObj?.documentMessage?.mimetype) {
-        mime = msgObj.documentMessage.mimetype;
-        originalFilename = msgObj.documentMessage.fileName || '';
-      } else if (msgObj?.stickerMessage?.mimetype) mime = msgObj.stickerMessage.mimetype;
-      else if (msgObj?.viewOnceMessage?.message?.imageMessage?.mimetype) {
-        mime = msgObj.viewOnceMessage.message.imageMessage.mimetype;
-      } else if (msgObj?.viewOnceMessage?.message?.videoMessage?.mimetype) {
-        mime = msgObj.viewOnceMessage.message.videoMessage.mimetype;
-      } else if (msgObj?.viewOnceMessageV2?.message?.imageMessage?.mimetype) {
-        mime = msgObj.viewOnceMessageV2.message.imageMessage.mimetype;
-      } else if (msgObj?.viewOnceMessageV2?.message?.videoMessage?.mimetype) {
-        mime = msgObj.viewOnceMessageV2.message.videoMessage.mimetype;
-      }
+      if (unwrapped?.imageMessage?.mimetype) mime = unwrapped.imageMessage.mimetype;
+      else if (unwrapped?.videoMessage?.mimetype) mime = unwrapped.videoMessage.mimetype;
+      else if (unwrapped?.audioMessage?.mimetype) mime = unwrapped.audioMessage.mimetype;
+      else if (unwrapped?.documentMessage?.mimetype) {
+        mime = unwrapped.documentMessage.mimetype;
+        originalFilename = unwrapped.documentMessage.fileName || '';
+      } else if (unwrapped?.stickerMessage?.mimetype) mime = unwrapped.stickerMessage.mimetype;
 
       const ext = this.getExtension(mime, mediaType);
       const cleanFileName =
-        originalFilename || `${Date.now()}_${opts.isViewOnce ? 'VIEWONCE_' : ''}${opts.messageId.slice(0, 10)}${ext}`;
-      const targetFolder = this.getSubdir(mediaType, opts.isViewOnce, opts.isStatus);
+        originalFilename || `${Date.now()}_${finalIsViewOnce ? 'VIEWONCE_' : ''}${opts.messageId.slice(0, 10)}${ext}`;
+      const targetFolder = this.getSubdir(mediaType, finalIsViewOnce, opts.isStatus);
       const fullPath = path.join(targetFolder, cleanFileName);
       const relativePath = path.relative(process.cwd(), fullPath);
 
@@ -180,7 +263,7 @@ class MediaService {
       db.upsertMedia(savedItem);
 
       // Emit realtime event
-      if (opts.isViewOnce) {
+      if (finalIsViewOnce) {
         realtime.broadcast('view_once:saved', savedItem);
         db.addNotification({
           type: 'view_once_saved',
@@ -193,7 +276,7 @@ class MediaService {
       }
 
       db.addLog(
-        opts.isViewOnce ? 'View Once Captured' : 'Media Saved',
+        finalIsViewOnce ? 'View Once Captured' : 'Media Saved',
         `Successfully downloaded ${mediaType} (${(buffer.length / 1024).toFixed(1)} KB) from ${opts.senderName}`,
         'INFO',
         'BOT'
@@ -211,9 +294,9 @@ class MediaService {
         chatName: opts.chatName,
         senderId: opts.senderId,
         senderName: opts.senderName,
-        rawMsg,
+        rawMsg: cleanRawMsg,
         mediaType,
-        isViewOnce: opts.isViewOnce,
+        isViewOnce: finalIsViewOnce,
         isStatus: opts.isStatus,
         attempts: 1,
         maxAttempts: 3,
@@ -234,7 +317,41 @@ class MediaService {
     }
 
     try {
-      const buffer = await downloadMediaMessage(job.rawMsg, 'buffer', {}, {} as any);
+      let buffer: Buffer | null = null;
+      try {
+        buffer = await downloadMediaMessage(job.rawMsg, 'buffer', {}, {} as any);
+      } catch (errRetry: any) {
+        const { unwrapped } = this.unwrapMessage(job.rawMsg.message);
+        const mediaObj =
+          unwrapped?.imageMessage ||
+          unwrapped?.videoMessage ||
+          unwrapped?.audioMessage ||
+          unwrapped?.documentMessage ||
+          unwrapped?.stickerMessage;
+
+        if (mediaObj && (mediaObj.directPath || mediaObj.url)) {
+          const baileyType =
+            job.mediaType === 'photo'
+              ? 'image'
+              : job.mediaType === 'video'
+                ? 'video'
+                : job.mediaType === 'audio' || job.mediaType === 'voice'
+                  ? (mediaObj.ptt ? 'audio' : 'audio')
+                  : job.mediaType === 'document'
+                    ? 'document'
+                    : 'sticker';
+
+          const stream = await downloadContentFromMessage(mediaObj, baileyType as any);
+          const chunks: Buffer[] = [];
+          for await (const chunk of stream) {
+            chunks.push(chunk);
+          }
+          buffer = Buffer.concat(chunks);
+        } else {
+          throw errRetry;
+        }
+      }
+
       if (!buffer || buffer.length === 0) {
         throw new Error('Downloaded buffer empty on retry');
       }

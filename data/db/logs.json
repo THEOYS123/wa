@@ -1,5 +1,741 @@
 [
   {
+    "id": "1346e98f-faec-44fd-ac5a-ac75b2644076",
+    "timestamp": "2026-10-08T18:07:08.040Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "6dcc9dea-18fb-4117-a109-c1b331357c56",
+    "timestamp": "2026-10-08T18:07:06.462Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "e1fe1f90-976d-45b8-9ec9-6c6f55efe30a",
+    "timestamp": "2026-10-08T18:07:01.543Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "d49be310-5386-4765-8633-1a3edc96c2ed",
+    "timestamp": "2026-10-08T18:06:58.733Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "12818615-3009-415a-837f-572f01877753",
+    "timestamp": "2026-10-08T18:06:54.821Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "789813e4-b908-47a1-a1ec-e5c9ea840360",
+    "timestamp": "2026-10-08T18:06:53.219Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "22a375f4-e801-4343-860a-d487fdcdfbf5",
+    "timestamp": "2026-10-08T18:06:48.046Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "e10ab4be-8652-4678-b46d-ac5d0c8e93ca",
+    "timestamp": "2026-10-08T18:06:46.305Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "1e9c4e46-2afd-4ad3-a8d6-7b5e4526fa9b",
+    "timestamp": "2026-10-08T18:06:40.147Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "f89760de-7fe7-4142-8eb6-f66e036db02b",
+    "timestamp": "2026-10-08T18:06:39.973Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "bd47bc6c-ef9e-4753-996e-34ed2057509e",
+    "timestamp": "2026-10-08T18:06:34.195Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "453c7de1-27a0-4b88-bf4f-45bd6e9adc79",
+    "timestamp": "2026-10-08T18:06:32.143Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "9979ec6f-efee-491f-8ee4-68bce5a6facb",
+    "timestamp": "2026-10-08T18:06:23.417Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "5073adfc-4be0-4600-9267-1c3c339c86ba",
+    "timestamp": "2026-10-08T18:06:22.250Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a2f8279a-a01b-4e81-b788-95c5b0969053",
+    "timestamp": "2026-10-08T18:06:15.117Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "f3b7f30d-160a-42e3-a122-92438f16a6de",
+    "timestamp": "2026-10-08T18:06:10.001Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "7ea54248-9e3c-471f-beea-f1ca3e7ae575",
+    "timestamp": "2026-10-08T18:06:07.934Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "606c45fd-6eef-4865-8d9d-92d928432476",
+    "timestamp": "2026-10-08T18:06:03.730Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "a8f28e06-2198-4b45-aa5a-8d7f4c1e09b1",
+    "timestamp": "2026-10-08T18:06:01.493Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "6200e4d0-11d8-4fbf-8d29-8c49406e080d",
+    "timestamp": "2026-10-08T18:05:57.121Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "1cf757e4-6d1c-4dca-8095-102d2c3395ca",
+    "timestamp": "2026-10-08T18:05:55.045Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "582d8995-8148-4afd-b65b-e06a294a4292",
+    "timestamp": "2026-10-08T18:05:49.982Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "92c3e4bb-a6a4-4219-90cf-857db710f3c9",
+    "timestamp": "2026-10-08T18:05:48.312Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "984eefec-89d1-48f8-8fff-1c06ff2b0cdd",
+    "timestamp": "2026-10-08T18:05:43.677Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "cdd61c38-12ba-48d7-8238-3820deb018c3",
+    "timestamp": "2026-10-08T18:05:40.766Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "30a07329-23e9-40b5-ba65-df49225b7e04",
+    "timestamp": "2026-10-08T18:05:36.606Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "59b48b29-e947-4555-bc30-bd56cc5b63c9",
+    "timestamp": "2026-10-08T18:05:33.843Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "0bb340c7-a75a-4d04-8eeb-c0e3518986ff",
+    "timestamp": "2026-10-08T18:05:29.694Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "5d9d6d45-38a7-4225-a308-553d7528bcd0",
+    "timestamp": "2026-10-08T18:05:28.049Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "400d847d-1ba0-46c7-aa2a-f21e83dc7537",
+    "timestamp": "2026-10-08T18:05:22.810Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "c2bb512d-397e-41f9-8abc-73e4b2119dae",
+    "timestamp": "2026-10-08T18:05:20.192Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "3b1810e2-f600-43d3-b93b-890591951588",
+    "timestamp": "2026-10-08T18:05:16.057Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "74918d41-5d83-4de4-aec9-c1e29c2a9c37",
+    "timestamp": "2026-10-08T18:05:13.662Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ff6b49fb-ab24-4d53-a503-7546d158524d",
+    "timestamp": "2026-10-08T18:05:10.285Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "254e723a-d394-4057-94ab-b8514997d61c",
+    "timestamp": "2026-10-08T18:04:49.088Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "d219e68d-378b-4dc4-a168-48a352471de0",
+    "timestamp": "2026-10-08T18:04:45.393Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "67bd979b-3825-4f96-b6e5-8692bf221a30",
+    "timestamp": "2026-10-08T18:04:42.486Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "c7266e8a-11e9-4ec2-8998-1cf1f1af8af6",
+    "timestamp": "2026-10-08T18:04:38.331Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "27d2c7f5-c573-4ca4-9cdb-505cb1788440",
+    "timestamp": "2026-10-08T18:04:35.367Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "c833885b-9a0f-4c94-bfeb-79442cd3be20",
+    "timestamp": "2026-10-08T18:04:31.662Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "76c905e5-f9a1-4481-bdce-1c255a2dafcf",
+    "timestamp": "2026-10-08T18:04:28.993Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "00a7b424-7ac7-4dcf-9f9d-9a02af649296",
+    "timestamp": "2026-10-08T18:04:25.607Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "244fc68a-6bd2-491c-a1aa-44187fa911af",
+    "timestamp": "2026-10-08T18:04:22.878Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "e84ad749-e7e4-4d0f-8021-4d13d3615b22",
+    "timestamp": "2026-10-08T18:04:19.307Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "960e901c-190c-4076-924e-63c3b6e9149e",
+    "timestamp": "2026-10-08T18:04:17.089Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "398e2e26-db2b-4878-bfe6-981a264166fc",
+    "timestamp": "2026-10-08T18:04:12.938Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "365da9bc-547f-4c79-9173-b578956b7ac0",
+    "timestamp": "2026-10-08T18:04:10.253Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "eb4ccae4-de7c-4b18-9447-8666f1c5bdc6",
+    "timestamp": "2026-10-08T18:04:05.671Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "94820b51-90fa-47c4-9f70-c6a4c6b1278f",
+    "timestamp": "2026-10-08T18:04:03.355Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "1b0ec3e4-37dd-44d1-9dff-d7fd9b100ac9",
+    "timestamp": "2026-10-08T18:03:58.989Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "96e6c1af-02c4-406c-a623-9923605f77c4",
+    "timestamp": "2026-10-08T18:03:56.669Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "f87eacf6-9189-4bff-af5b-1166fc196e46",
+    "timestamp": "2026-10-08T18:03:52.889Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "c990c1ef-437a-47f7-8996-cce6d107df51",
+    "timestamp": "2026-10-08T18:03:49.635Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "821aef2e-8731-48cd-9710-1d225d954a7e",
+    "timestamp": "2026-10-08T18:03:46.008Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "a0b479ec-5c00-4a0e-9a9f-b1a2f34ba6e6",
+    "timestamp": "2026-10-08T18:03:43.232Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "433aad59-655d-48f5-b8ba-2f17c1f9df15",
+    "timestamp": "2026-10-08T18:03:39.653Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "ea93b04d-d178-4b08-aea8-860862f7aed7",
+    "timestamp": "2026-10-08T18:01:24.596Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "0cce19a3-eaf5-4dc2-ba0c-0cf1a481dc6e",
+    "timestamp": "2026-10-08T18:01:20.762Z",
+    "event": "WhatsApp Disconnected",
+    "details": "Socket closed with code 440. Should reconnect: true",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "890500b5-e3b9-482a-81bd-a880c480b991",
+    "timestamp": "2026-10-08T17:56:26.145Z",
+    "event": "Settings Updated",
+    "details": "User changed application configurations",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "bed71bbd-e728-4594-aba9-4b10817f9923",
+    "timestamp": "2026-10-08T17:52:41.302Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded photo (84.1 KB) from ggrandya",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "d830c8b1-1bf8-41c5-ac61-1852474ea90b",
+    "timestamp": "2026-10-08T17:51:44.214Z",
+    "event": "Message Sent",
+    "details": "Sent text to 40055401894141@lid",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "66ddefdf-1224-497e-922b-c3ed67deb883",
+    "timestamp": "2026-10-08T17:51:32.107Z",
+    "event": "Message Sent",
+    "details": "Sent text to 40055401894141@lid",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "29548b62-d45b-4dec-b01c-b73854f99851",
+    "timestamp": "2026-10-08T17:51:24.299Z",
+    "event": "Deleted Message Captured",
+    "details": "Captured deleted message ID A5F211714C7645E9F870C04DA74C52C3 from Asep",
+    "severity": "WARNING",
+    "source": "BOT"
+  },
+  {
+    "id": "6d0a95ba-9c3c-475b-8443-fb3d6bda8c65",
+    "timestamp": "2026-10-08T17:51:20.823Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded photo (132.6 KB) from Asep",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "5a27d1d6-9508-4869-a838-636f637ff3e4",
+    "timestamp": "2026-10-08T17:50:55.961Z",
+    "event": "Message Sent",
+    "details": "Sent text to 40055401894141@lid",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "dc2f3f46-8e4c-4fa5-acfc-035588934444",
+    "timestamp": "2026-10-08T17:50:45.787Z",
+    "event": "Message Sent",
+    "details": "Sent text to 40055401894141@lid",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "6b039ece-f404-4c55-9274-ba53c9fe3491",
+    "timestamp": "2026-10-08T17:49:41.705Z",
+    "event": "Status Saved",
+    "details": "Saved status from Asep (text)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "3b831e21-f147-42e6-a425-8353a2565286",
+    "timestamp": "2026-10-08T17:48:54.151Z",
+    "event": "Status Saved",
+    "details": "Saved status from Asep (photo)",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "4e76bf21-13f8-4f3a-ba9c-a10d8b9b1de1",
+    "timestamp": "2026-10-08T17:48:54.150Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded photo (65.8 KB) from Asep",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ef490246-25f7-4964-9da2-9bcdd0249b7c",
+    "timestamp": "2026-10-08T17:47:34.069Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "a8c3f144-9202-41f0-9eda-593a0d535e92",
+    "timestamp": "2026-10-08T17:47:10.193Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a0311e04-6d44-45fd-8285-6a0aae2372d6",
+    "timestamp": "2026-10-08T17:47:02.100Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ecbfe42d-7cb1-4057-8330-b01cc7ac28be",
+    "timestamp": "2026-10-08T17:37:36.180Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (6.0 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "c2a78882-aee7-4b1b-831f-6b4161eb9a1d",
+    "timestamp": "2026-10-08T17:37:08.260Z",
+    "event": "Media Download Failed",
+    "details": "Permanent failure for 0ee5523d-0887-4a5e-a5d4-fd37963dd027 (sticker): fetch failed",
+    "severity": "WARNING",
+    "source": "SYSTEM"
+  },
+  {
+    "id": "7dde99ce-ef16-4ac9-b5e1-c6659b087fa7",
+    "timestamp": "2026-10-08T17:36:32.293Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (395.0 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "8591f34a-311e-4b07-8fd4-c9dd2a88ab53",
+    "timestamp": "2026-10-08T17:35:48.246Z",
+    "event": "Media Download Failed",
+    "details": "Permanent failure for 0e46e1da-b0e0-4c42-b950-838f5890bbfd (sticker): fetch failed",
+    "severity": "WARNING",
+    "source": "SYSTEM"
+  },
+  {
+    "id": "fc915764-7e2a-467e-80f0-deeb1ad167b8",
+    "timestamp": "2026-10-08T17:35:28.247Z",
+    "event": "Media Download Failed",
+    "details": "Permanent failure for 37438b64-38b3-47dc-8f69-156a41dab35f (sticker): fetch failed",
+    "severity": "WARNING",
+    "source": "SYSTEM"
+  },
+  {
+    "id": "0c155fe9-a841-480b-bc68-3623e79877cf",
+    "timestamp": "2026-10-08T17:34:59.274Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (14.3 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "5c31446f-9eea-46cb-bcd0-36636a7d6925",
+    "timestamp": "2026-10-08T17:34:38.237Z",
+    "event": "Media Download Failed",
+    "details": "Permanent failure for 3fa6341f-4380-4f45-b1a0-cfa0b0f48472 (sticker): fetch failed",
+    "severity": "WARNING",
+    "source": "SYSTEM"
+  },
+  {
+    "id": "cc50dfd5-de0d-45d2-8879-d3a614499e78",
+    "timestamp": "2026-10-08T17:33:04.224Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (23.0 KB) from Anarchist of the False Network",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "c39efc74-3252-455f-a045-ec98b29cf146",
+    "timestamp": "2026-10-08T17:32:50.171Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (793.7 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "518e6f9d-2418-40a7-9fd8-29602ee6716c",
+    "timestamp": "2026-10-08T17:32:08.201Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (258.0 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "a7bfd2aa-6c96-4cc7-9c75-c914b295d87c",
+    "timestamp": "2026-10-08T17:31:48.210Z",
+    "event": "Media Download Failed",
+    "details": "Permanent failure for 8733c0a4-c814-4179-b838-0e82f5fc456d (sticker): fetch failed",
+    "severity": "WARNING",
+    "source": "SYSTEM"
+  },
+  {
+    "id": "2ab7d3a1-978b-48f0-9aee-f4c82e6e1c9d",
+    "timestamp": "2026-10-08T17:31:24.688Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (258.0 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "3144cf54-2184-4a6d-a924-1618f1aa1f6e",
+    "timestamp": "2026-10-08T17:30:46.551Z",
+    "event": "User Login",
+    "details": "User admin logged in successfully",
+    "severity": "INFO",
+    "source": "USER"
+  },
+  {
+    "id": "c8c0f403-dc78-4890-b64e-c3baef76c0dc",
+    "timestamp": "2026-10-08T17:30:37.929Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "ddb9743a-b086-40b7-aa5b-ee7f085f8d0b",
+    "timestamp": "2026-10-08T17:30:22.724Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (165.7 KB) from Slobodan Milosevic",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "399460ad-f6be-4781-ae7b-e95319490de4",
+    "timestamp": "2026-10-08T17:30:16.434Z",
+    "event": "WhatsApp Connected",
+    "details": "Account RENDI.M.E 🗿🗿 (6289519450908) is online",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "f1748559-6a53-4211-abde-a25f3f03f248",
+    "timestamp": "2026-10-08T17:26:03.307Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (72.3 KB) from Slobodan Milosevic",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "3e3be215-ac98-4fb8-93ca-f50fd4adcf12",
+    "timestamp": "2026-10-08T17:24:05.774Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (8.0 KB) from Mashio Hasow",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "e434dff4-cd2a-403b-a12d-14def4cd47f1",
+    "timestamp": "2026-10-08T17:20:07.510Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (17.3 KB) from موسىى",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
+    "id": "d89950f0-4f63-404f-9632-815117061c8e",
+    "timestamp": "2026-10-08T17:19:19.036Z",
+    "event": "Media Saved",
+    "details": "Successfully downloaded sticker (55.6 KB) from Slobodan Milosevic",
+    "severity": "INFO",
+    "source": "BOT"
+  },
+  {
     "id": "b843056f-9db6-48e4-9b1e-502a4bcbe78b",
     "timestamp": "2026-10-08T17:18:15.690Z",
     "event": "WhatsApp Connected",

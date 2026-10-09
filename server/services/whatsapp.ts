@@ -395,6 +395,66 @@ class WhatsAppBotService {
     }, backoffMs);
   }
 
+  private unwrapMessage(msgContent: any): { unwrapped: any; isViewOnce: boolean } {
+    let isViewOnce = false;
+    let current = msgContent;
+
+    for (let depth = 0; depth < 10; depth++) {
+      if (!current || typeof current !== 'object') break;
+
+      // Handle deviceSentMessage (sent from own phone)
+      if (current.deviceSentMessage?.message) {
+        current = current.deviceSentMessage.message;
+        continue;
+      }
+      // Handle ephemeralMessage (disappearing messages)
+      if (current.ephemeralMessage?.message) {
+        current = current.ephemeralMessage.message;
+        continue;
+      }
+      // Handle documentWithCaptionMessage
+      if (current.documentWithCaptionMessage?.message) {
+        current = current.documentWithCaptionMessage.message;
+        continue;
+      }
+      // Handle View Once V1
+      if (current.viewOnceMessage?.message) {
+        isViewOnce = true;
+        current = current.viewOnceMessage.message;
+        continue;
+      }
+      // Handle View Once V2
+      if (current.viewOnceMessageV2?.message) {
+        isViewOnce = true;
+        current = current.viewOnceMessageV2.message;
+        continue;
+      }
+      // Handle View Once V2 Extension
+      if (current.viewOnceMessageV2Extension?.message) {
+        isViewOnce = true;
+        current = current.viewOnceMessageV2Extension.message;
+        continue;
+      }
+      // Handle edited messages
+      if (current.editedMessage?.message?.protocolMessage?.editedMessage) {
+        current = current.editedMessage.message.protocolMessage.editedMessage;
+        continue;
+      }
+      break;
+    }
+
+    // Also check if inner media item has viewOnce flag
+    if (
+      current?.imageMessage?.viewOnce ||
+      current?.videoMessage?.viewOnce ||
+      current?.audioMessage?.viewOnce
+    ) {
+      isViewOnce = true;
+    }
+
+    return { unwrapped: current || msgContent, isViewOnce };
+  }
+
   private async processIncomingMessage(msg: WAMessage) {
     if (!msg.key || !msg.message) return;
 
@@ -408,9 +468,15 @@ class WhatsAppBotService {
     const isGroup = remoteJid.endsWith('@g.us');
     const isStatus = remoteJid === 'status@broadcast';
 
-    const senderJid = msg.key.participant || remoteJid;
-    const senderPhone = senderJid.split('@')[0];
-    const senderName = msg.pushName || senderPhone || 'Unknown';
+    const session = db.getSession();
+    const myPhone = session.phoneNumber || 'Me';
+    const myName = session.accountName || 'Saya (Me)';
+
+    const senderJid = fromMe
+      ? (myPhone.includes('@') ? myPhone : `${myPhone}@s.whatsapp.net`)
+      : (msg.key.participant || remoteJid);
+    const senderPhone = fromMe ? myPhone.replace(/[^0-9]/g, '') : senderJid.split('@')[0];
+    const senderName = fromMe ? myName : (msg.pushName || senderPhone || 'Unknown');
 
     // 1. Check if it's a Status Broadcast (Status WhatsApp)
     if (isStatus) {
@@ -418,68 +484,50 @@ class WhatsAppBotService {
       return;
     }
 
-    // 2. Identify message type and content
-    const msgContent = msg.message;
+    // 2. Identify message type and content with full recursive unwrapping
+    const { unwrapped, isViewOnce } = this.unwrapMessage(msg.message);
+    const msgContent = unwrapped;
+
     let messageType: MessageType = 'text';
     let textContent = '';
-    let isViewOnce = false;
     let mimeType = '';
     let fileName = '';
 
-    // Check View Once
-    const viewOnceObj =
-      msgContent.viewOnceMessage || msgContent.viewOnceMessageV2 || msgContent.viewOnceMessageV2Extension;
-
-    if (viewOnceObj?.message) {
-      isViewOnce = true;
-      const inner = viewOnceObj.message;
-      if (inner.imageMessage) {
-        messageType = 'image';
-        textContent = inner.imageMessage.caption || '';
-        mimeType = inner.imageMessage.mimetype || 'image/jpeg';
-      } else if (inner.videoMessage) {
-        messageType = 'video';
-        textContent = inner.videoMessage.caption || '';
-        mimeType = inner.videoMessage.mimetype || 'video/mp4';
-      } else if (inner.audioMessage) {
-        messageType = 'audio';
-        mimeType = inner.audioMessage.mimetype || 'audio/ogg';
-      }
-    } else if (msgContent.conversation) {
-      messageType = 'text';
-      textContent = msgContent.conversation;
-    } else if (msgContent.extendedTextMessage) {
-      messageType = 'text';
-      textContent = msgContent.extendedTextMessage.text || '';
-    } else if (msgContent.imageMessage) {
+    if (msgContent?.imageMessage) {
       messageType = 'image';
       textContent = msgContent.imageMessage.caption || '';
       mimeType = msgContent.imageMessage.mimetype || 'image/jpeg';
-    } else if (msgContent.videoMessage) {
+    } else if (msgContent?.videoMessage) {
       messageType = 'video';
       textContent = msgContent.videoMessage.caption || '';
       mimeType = msgContent.videoMessage.mimetype || 'video/mp4';
-    } else if (msgContent.audioMessage) {
+    } else if (msgContent?.audioMessage) {
       messageType = msgContent.audioMessage.ptt ? 'voice' : 'audio';
       mimeType = msgContent.audioMessage.mimetype || 'audio/ogg';
-    } else if (msgContent.documentMessage) {
+    } else if (msgContent?.documentMessage) {
       messageType = 'document';
       textContent = msgContent.documentMessage.caption || '';
       fileName = msgContent.documentMessage.fileName || 'document';
       mimeType = msgContent.documentMessage.mimetype || 'application/pdf';
-    } else if (msgContent.stickerMessage) {
+    } else if (msgContent?.stickerMessage) {
       messageType = 'sticker';
       mimeType = msgContent.stickerMessage.mimetype || 'image/webp';
-    } else if (msgContent.locationMessage) {
+    } else if (msgContent?.conversation) {
+      messageType = 'text';
+      textContent = msgContent.conversation;
+    } else if (msgContent?.extendedTextMessage) {
+      messageType = 'text';
+      textContent = msgContent.extendedTextMessage.text || '';
+    } else if (msgContent?.locationMessage) {
       messageType = 'location';
       textContent = `Location: ${msgContent.locationMessage.degreesLatitude}, ${msgContent.locationMessage.degreesLongitude}`;
-    } else if (msgContent.contactMessage) {
+    } else if (msgContent?.contactMessage) {
       messageType = 'contact';
       textContent = `Contact: ${msgContent.contactMessage.displayName}`;
-    } else if (msgContent.reactionMessage) {
+    } else if (msgContent?.reactionMessage) {
       messageType = 'reaction';
       textContent = msgContent.reactionMessage.text || '';
-    } else if (msgContent.pollCreationMessage) {
+    } else if (msgContent?.pollCreationMessage) {
       messageType = 'poll';
       textContent = `Poll: ${msgContent.pollCreationMessage.name}`;
     }
@@ -488,10 +536,10 @@ class WhatsAppBotService {
     let quotedMessageId: string | undefined;
     let quotedText: string | undefined;
     const contextInfo =
-      msgContent.extendedTextMessage?.contextInfo ||
-      msgContent.imageMessage?.contextInfo ||
-      msgContent.videoMessage?.contextInfo ||
-      msgContent.documentMessage?.contextInfo;
+      msgContent?.extendedTextMessage?.contextInfo ||
+      msgContent?.imageMessage?.contextInfo ||
+      msgContent?.videoMessage?.contextInfo ||
+      msgContent?.documentMessage?.contextInfo;
 
     if (contextInfo) {
       quotedMessageId = contextInfo.stanzaId || undefined;
@@ -506,7 +554,7 @@ class WhatsAppBotService {
       ? new Date(Number(msg.messageTimestamp) * 1000).toISOString()
       : new Date().toISOString();
 
-    const chatName = isGroup ? (db.getGroup(remoteJid)?.subject || remoteJid) : senderName;
+    const chatName = isGroup ? (db.getGroup(remoteJid)?.subject || remoteJid) : (fromMe ? (remoteJid.split('@')[0]) : senderName);
 
     // Check if media download is needed
     let savedMediaPath: string | undefined;
@@ -527,7 +575,13 @@ class WhatsAppBotService {
                 ? 'document'
                 : 'sticker';
 
-      const mediaRecord = await mediaService.processAndSaveMedia(msg, mediaTypeArg, {
+      // Provide normalized message to Baileys so deviceSentMessage does not cause Boom rejection
+      const normalizedMsg: WAMessage = {
+        ...msg,
+        message: msgContent,
+      };
+
+      const mediaRecord = await mediaService.processAndSaveMedia(normalizedMsg, mediaTypeArg, {
         messageId,
         chatId: remoteJid,
         chatName,
@@ -587,7 +641,8 @@ class WhatsAppBotService {
     if (!settings.autoSaveStatus && !settings.autoSaveEverything) return;
 
     const messageId = msg.key.id || crypto.randomUUID();
-    const msgContent = msg.message;
+    const { unwrapped } = this.unwrapMessage(msg.message);
+    const msgContent = unwrapped;
     if (!msgContent) return;
 
     let mediaType: 'photo' | 'video' | 'text' = 'text';
@@ -608,8 +663,13 @@ class WhatsAppBotService {
     let fileSize = 0;
 
     if (mediaType !== 'text') {
+      const normalizedMsg: WAMessage = {
+        ...msg,
+        message: msgContent,
+      };
+
       const mediaItem = await mediaService.processAndSaveMedia(
-        msg,
+        normalizedMsg,
         mediaType === 'photo' ? 'photo' : 'video',
         {
           messageId,

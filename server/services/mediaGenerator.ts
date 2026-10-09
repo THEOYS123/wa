@@ -1,64 +1,74 @@
 import fs from 'fs';
 import path from 'path';
+import zlib from 'zlib';
 
-// Valid 1x1 to small colorful 100% compliant PNG/JPEG images and playable MP4/WebM videos
-// This ensures that any generated, diagnostic, or fallback media displays perfectly in all browsers.
+// Valid 100% compliant PNG images and playable MP4 videos
+// This ensures that any media displays perfectly in all web browsers without 'image broken' errors.
 
 /**
- * Creates a valid, standalone PNG image buffer with customizable text/gradient
+ * Creates a valid, standalone PNG image buffer with emerald gradient/pattern
  * A valid PNG file with full IHDR, IDAT, IEND chunks that renders crisply in any <img> tag.
  */
 export function createValidPngBuffer(width = 320, height = 240, title = 'WhatsApp Media', subtitle = 'Auto-Saved'): Buffer {
-  // We can create a valid SVG and/or standard uncompressed valid BMP/PNG.
-  // Even better, SVG converted or a raw BMP 24-bit image which every browser decodes instantly as an image:
-  // A standard Windows BMP file (header + pixel array) is 100% valid image/bmp or can be served as image/jpeg / image/png!
-  const headerSize = 54;
-  const rowSize = Math.floor((24 * width + 31) / 32) * 4;
-  const pixelArraySize = rowSize * height;
-  const fileSize = headerSize + pixelArraySize;
+  const signature = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
 
-  const buf = Buffer.alloc(fileSize);
+  // IHDR chunk
+  const ihdr = Buffer.alloc(13);
+  ihdr.writeUInt32BE(width, 0);
+  ihdr.writeUInt32BE(height, 4);
+  ihdr.writeUInt8(8, 8); // bit depth 8
+  ihdr.writeUInt8(2, 9); // truecolor RGB
+  ihdr.writeUInt8(0, 10);
+  ihdr.writeUInt8(0, 11);
+  ihdr.writeUInt8(0, 12);
 
-  // BMP Header
-  buf.write('BM', 0); // Signature
-  buf.writeUInt32LE(fileSize, 2); // File size
-  buf.writeUInt32LE(0, 6); // Reserved
-  buf.writeUInt32LE(headerSize, 10); // Offset to pixel array
-
-  // DIB Header (BITMAPINFOHEADER)
-  buf.writeUInt32LE(40, 14); // Header size
-  buf.writeInt32LE(width, 18); // Width
-  buf.writeInt32LE(height, 22); // Height (positive = bottom-up)
-  buf.writeUInt16LE(1, 26); // Color planes
-  buf.writeUInt16LE(24, 28); // Bits per pixel (24-bit RGB)
-  buf.writeUInt32LE(0, 30); // Compression (none)
-  buf.writeUInt32LE(pixelArraySize, 34); // Image size
-  buf.writeInt32LE(2835, 38); // Horizontal resolution (~72 DPI)
-  buf.writeInt32LE(2835, 42); // Vertical resolution (~72 DPI)
-  buf.writeUInt32LE(0, 46); // Colors in color table
-  buf.writeUInt32LE(0, 50); // Important color count
-
-  // Fill pixels with modern emerald/teal gradient pattern
+  // Scanlines with filter byte 0
+  const scanlines = Buffer.alloc(height * (1 + width * 3));
+  let offset = 0;
   for (let y = 0; y < height; y++) {
-    const rowOffset = headerSize + y * rowSize;
+    scanlines[offset++] = 0; // Filter None
     const normY = y / height;
     for (let x = 0; x < width; x++) {
       const normX = x / width;
-      const pxOffset = rowOffset + x * 3;
-
-      // Emerald to dark teal gradient: RGB
-      const r = Math.floor(16 + 24 * normX);
-      const g = Math.floor(140 + 60 * (1 - normY));
-      const b = Math.floor(100 + 80 * normX);
-
-      // BMP stores BGR
-      buf.writeUInt8(Math.min(255, b), pxOffset);
-      buf.writeUInt8(Math.min(255, g), pxOffset + 1);
-      buf.writeUInt8(Math.min(255, r), pxOffset + 2);
+      // Smooth gradient: Dark emerald green to teal
+      scanlines[offset++] = Math.floor(16 + 24 * normX);        // R
+      scanlines[offset++] = Math.floor(140 + 75 * (1 - normY)); // G
+      scanlines[offset++] = Math.floor(100 + 80 * normX);       // B
     }
   }
 
-  return buf;
+  const idatData = zlib.deflateSync(scanlines);
+
+  function createChunk(type: string, data: Buffer): Buffer {
+    const len = Buffer.alloc(4);
+    len.writeUInt32BE(data.length, 0);
+    const typeBuf = Buffer.from(type, 'ascii');
+    const toCrc = Buffer.concat([typeBuf, data]);
+
+    // Standard PNG CRC32 table
+    let c = 0xffffffff;
+    const table: number[] = [];
+    for (let n = 0; n < 256; n++) {
+      let v = n;
+      for (let k = 0; k < 8; k++) {
+        v = v & 1 ? 0xedb88320 ^ (v >>> 1) : v >>> 1;
+      }
+      table[n] = v;
+    }
+    for (let i = 0; i < toCrc.length; i++) {
+      c = table[(c ^ toCrc[i]) & 0xff] ^ (c >>> 8);
+    }
+    c = (c ^ 0xffffffff) >>> 0;
+    const crcBuf = Buffer.alloc(4);
+    crcBuf.writeUInt32BE(c, 0);
+    return Buffer.concat([len, typeBuf, data, crcBuf]);
+  }
+
+  const ihdrChunk = createChunk('IHDR', ihdr);
+  const idatChunk = createChunk('IDAT', idatData);
+  const iendChunk = createChunk('IEND', Buffer.alloc(0));
+
+  return Buffer.concat([signature, ihdrChunk, idatChunk, iendChunk]);
 }
 
 /**

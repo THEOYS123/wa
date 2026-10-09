@@ -1,13 +1,90 @@
 [
   {
-    "id": "STATUS_TEST_1791474849592",
-    "senderId": "story_user@s.whatsapp.net",
-    "senderName": "Story Poster",
-    "senderPhone": "62812345678",
+    "id": "AC9B9EBA82EDA47E5A0B77C8E1821CCC",
+    "senderId": "248778112123133@lid",
+    "senderName": "~Davin",
+    "senderPhone": "248778112123133",
+    "mediaType": "video",
+    "mediaPath": "data/media/status/1791479547842_AC9B9EBA82.mp4",
+    "caption": "",
+    "timestamp": "2026-10-08T17:12:26.000Z",
+    "savedAt": "2026-10-08T17:12:27.843Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 1014842
+  },
+  {
+    "id": "AC3C9CBA1857A484BE322ECDEE32A7ED",
+    "senderId": "248778112123133@lid",
+    "senderName": "~Davin",
+    "senderPhone": "248778112123133",
     "mediaType": "text",
-    "caption": "Status WhatsApp Story Test Post",
-    "timestamp": "2026-10-08T15:54:09.592Z",
-    "savedAt": "2026-10-08T15:54:09.592Z",
-    "downloadStatus": "SAVED"
+    "caption": "",
+    "timestamp": "2026-10-08T17:12:37.000Z",
+    "savedAt": "2026-10-08T17:12:37.288Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 0
+  },
+  {
+    "id": "ACAFB6266F95F3648DDBECEC56971D51",
+    "senderId": "248778112123133@lid",
+    "senderName": "~Davin",
+    "senderPhone": "248778112123133",
+    "mediaType": "video",
+    "mediaPath": "data/media/status/1791479567303_ACAFB6266F.mp4",
+    "caption": "",
+    "timestamp": "2026-10-08T17:12:46.000Z",
+    "savedAt": "2026-10-08T17:12:47.304Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 1014842
+  },
+  {
+    "id": "ACA79305A97A03A7F7FEE2061CEE7631",
+    "senderId": "248778112123133@lid",
+    "senderName": "~Davin",
+    "senderPhone": "248778112123133",
+    "mediaType": "text",
+    "caption": "",
+    "timestamp": "2026-10-08T17:14:26.000Z",
+    "savedAt": "2026-10-08T17:14:26.359Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 0
+  },
+  {
+    "id": "AC93399B74168FB0677FE8D56BD39FBB",
+    "senderId": "248778112123133@lid",
+    "senderName": "~Davin",
+    "senderPhone": "248778112123133",
+    "mediaType": "video",
+    "mediaPath": "data/media/status/1791479750062_AC93399B74.mp4",
+    "caption": "",
+    "timestamp": "2026-10-08T17:15:49.000Z",
+    "savedAt": "2026-10-08T17:15:50.064Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 1376902
+  },
+  {
+    "id": "A5E9E4A57DA1874D7B4FD7C6A5B24193",
+    "senderId": "40055401894141@lid",
+    "senderName": "Asep",
+    "senderPhone": "40055401894141",
+    "mediaType": "photo",
+    "mediaPath": "data/media/status/1791481734149_A5E9E4A57D.jpg",
+    "caption": "",
+    "timestamp": "2026-10-08T17:48:53.000Z",
+    "savedAt": "2026-10-08T17:48:54.151Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 67366
+  },
+  {
+    "id": "A5072DDFB183D3752C3B2A5106735DDF",
+    "senderId": "40055401894141@lid",
+    "senderName": "Asep",
+    "senderPhone": "40055401894141",
+    "mediaType": "text",
+    "caption": "",
+    "timestamp": "2026-10-08T17:49:41.000Z",
+    "savedAt": "2026-10-08T17:49:41.705Z",
+    "downloadStatus": "SAVED",
+    "fileSize": 0
   }
 ]

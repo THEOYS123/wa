@@ -256,13 +256,13 @@ router.get('/deleted-messages', (_req: Request, res: Response) => {
 // --------------------------------------------------------------------------
 // 7. View Once Media
 // --------------------------------------------------------------------------
-router.get('/view-once', (req: Request, res: Response) => {
+router.get(['/view-once', '/media/view-once'], (req: Request, res: Response) => {
   const type = req.query.type as string;
   const status = req.query.status as any;
   const items = db.getMediaItems({
     isViewOnce: true,
-    type: type !== 'all' ? type : undefined,
-    status,
+    type: type && type !== 'all' ? type : undefined,
+    status: status && status !== 'all' ? status : undefined,
   });
   return res.json({ items });
 });
@@ -389,9 +389,21 @@ router.get('/media-file/:id', (req: Request, res: Response) => {
     }
   }
 
-  const fullPath = targetPath
+  let fullPath = targetPath
     ? (path.isAbsolute(targetPath) ? targetPath : path.resolve(process.cwd(), targetPath))
     : null;
+
+  if (targetPath && (!fullPath || !fs.existsSync(fullPath))) {
+    const base = path.basename(targetPath);
+    const searchDirs = ['view_once', 'photos', 'status', 'videos', 'audio', 'documents', 'stickers'];
+    for (const sub of searchDirs) {
+      const candidate = path.resolve(process.cwd(), 'data', 'media', sub, base);
+      if (fs.existsSync(candidate)) {
+        fullPath = candidate;
+        break;
+      }
+    }
+  }
 
   if (!isFallback && (!fullPath || !fs.existsSync(fullPath))) {
     // If physical file missing, generate valid media buffer

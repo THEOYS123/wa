@@ -1,11 +1,1067 @@
 [
   {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "181f961b-6987-4ca6-88b1-4bfa92efad5c",
+    "createdAt": "2026-10-08T18:07:08.040Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "de1f4634-c523-4454-9af9-42f4e3dc3436",
+    "createdAt": "2026-10-08T18:07:06.462Z",
+    "isRead": false
+  },
+  {
+    "type": "system_warning",
+    "title": "Diagnostic Test Notification",
+    "message": "Notification pipeline verification passed.",
+    "id": "cd44d082-1e2a-4493-8a56-08982d51b1b6",
+    "createdAt": "2026-10-08T18:07:02.055Z",
+    "isRead": true
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "c57189e0-898e-4cf1-b508-92e0abb0702a",
+    "createdAt": "2026-10-08T18:07:01.543Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "cacea006-360d-4f8b-a0ad-d82ffabceaae",
+    "createdAt": "2026-10-08T18:06:58.733Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "9ba98f39-7696-433f-b8aa-9f64a6e5620f",
+    "createdAt": "2026-10-08T18:06:54.821Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "07b4ad0b-d9d4-411b-9143-d43eb4dfffbf",
+    "createdAt": "2026-10-08T18:06:53.219Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "86d4b802-f33d-42ec-afa4-7883e1b79528",
+    "createdAt": "2026-10-08T18:06:48.046Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "7895a594-e586-4291-9394-905859bd39c0",
+    "createdAt": "2026-10-08T18:06:46.305Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "811c4420-c7e2-4375-8ec7-57806e8b04b7",
+    "createdAt": "2026-10-08T18:06:40.147Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "36212be2-a4db-44ee-96fe-16ede37a4676",
+    "createdAt": "2026-10-08T18:06:39.973Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "7deaf615-ad1e-4c37-8ba6-eba22e087d6f",
+    "createdAt": "2026-10-08T18:06:34.195Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "9207a8f8-aaa8-42ff-8c5c-fa4af3efccbe",
+    "createdAt": "2026-10-08T18:06:32.143Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "8852fbec-8858-4da1-aab4-9102fc807fa1",
+    "createdAt": "2026-10-08T18:06:23.417Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "4ef128f6-eeae-44b6-af88-8f7756b2ee50",
+    "createdAt": "2026-10-08T18:06:22.250Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "86899443-e6f0-46ad-9453-00f35e0dd51e",
+    "createdAt": "2026-10-08T18:06:15.117Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "3a82a83c-9a67-4cc1-b4c1-58e79c8ec587",
+    "createdAt": "2026-10-08T18:06:10.001Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "ce2f6f66-444a-4e09-a148-158ddd5855fc",
+    "createdAt": "2026-10-08T18:06:07.934Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "2c15a1fc-8e26-4006-a544-b5385c7c40bd",
+    "createdAt": "2026-10-08T18:06:03.730Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "b5f6207c-5574-4d90-8619-7d9f2b54171a",
+    "createdAt": "2026-10-08T18:06:01.493Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "48815903-956f-4bbb-91c9-c4749a46a8d4",
+    "createdAt": "2026-10-08T18:05:57.121Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "e0466b66-9137-4f0c-94c5-d93aa8a6efa2",
+    "createdAt": "2026-10-08T18:05:55.045Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "b9c7f626-0958-44ff-bf61-7471d8e5a3b4",
+    "createdAt": "2026-10-08T18:05:49.982Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "8d229a2c-bcd6-4f07-b7ce-609bb67efee3",
+    "createdAt": "2026-10-08T18:05:48.312Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "9fb52d53-19e9-4b30-9d13-5411eb2b6891",
+    "createdAt": "2026-10-08T18:05:43.677Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "a5fa310c-3924-4a2d-bb15-410277358438",
+    "createdAt": "2026-10-08T18:05:40.766Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "e35c20a8-5b65-4939-b790-dfe9f021c873",
+    "createdAt": "2026-10-08T18:05:36.606Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "68d947c4-08db-4e52-ac6d-b4a4a2cef617",
+    "createdAt": "2026-10-08T18:05:33.843Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "83308db2-8198-47c1-a05b-dd02e2e0c360",
+    "createdAt": "2026-10-08T18:05:29.694Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "4ae429bc-6ad9-4953-a840-7895096abbd1",
+    "createdAt": "2026-10-08T18:05:28.049Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "8b40a20e-f51d-4973-8a56-29a842bc69ee",
+    "createdAt": "2026-10-08T18:05:22.810Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "678affb3-e832-497e-89b0-5326c8bcadef",
+    "createdAt": "2026-10-08T18:05:20.192Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "03a7ea00-ab35-405e-a4c7-49abe09d5840",
+    "createdAt": "2026-10-08T18:05:16.057Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "12eb243c-2f18-4c5a-92c1-d127950fb271",
+    "createdAt": "2026-10-08T18:05:13.662Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "4865a129-0b33-488a-b0e6-9365bd0607f5",
+    "createdAt": "2026-10-08T18:05:10.285Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "f429dd57-1548-4cd5-83ee-cb55a8caea47",
+    "createdAt": "2026-10-08T18:04:49.088Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "86d65f27-59fe-4ace-ba1d-ab70b823f800",
+    "createdAt": "2026-10-08T18:04:45.393Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "5d9cfadb-37e1-430d-a828-0c2c401c85e2",
+    "createdAt": "2026-10-08T18:04:42.486Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "57b0bf66-447c-49df-be28-044e88b23e46",
+    "createdAt": "2026-10-08T18:04:38.331Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "6997857f-3eab-4b91-8c47-e7e735f332d4",
+    "createdAt": "2026-10-08T18:04:35.367Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "a3ea1b46-e4cf-4ff8-bd5e-8627ec3eed07",
+    "createdAt": "2026-10-08T18:04:31.662Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "4ba0afa3-6457-4a28-920d-52f92c7d3308",
+    "createdAt": "2026-10-08T18:04:28.993Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "3cba9f5a-a2bf-4743-a066-c6933d07a795",
+    "createdAt": "2026-10-08T18:04:25.607Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "5d55e23e-cd88-4829-beff-c60eb3383038",
+    "createdAt": "2026-10-08T18:04:22.878Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "6ad6e186-d113-4cb3-a896-4070a7693041",
+    "createdAt": "2026-10-08T18:04:19.307Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "564e72f7-c6e5-48c8-a4a2-e1a6f828faea",
+    "createdAt": "2026-10-08T18:04:17.089Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "cccdc098-c2e6-4012-9ae8-1b91e8eb0e9d",
+    "createdAt": "2026-10-08T18:04:12.938Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "0dc186a6-b967-4129-8301-8f3de68dc1fd",
+    "createdAt": "2026-10-08T18:04:10.253Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "b39bb5a4-3f03-40ce-a64c-80cf2afdcc19",
+    "createdAt": "2026-10-08T18:04:05.671Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "e42e8fdb-fcb7-4045-b38c-22a5c4d7770f",
+    "createdAt": "2026-10-08T18:04:03.355Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "4c0992c6-a17a-4e8f-9d40-38a7aa768d2e",
+    "createdAt": "2026-10-08T18:03:58.989Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "ba18f799-b2d5-4b02-8857-2e716363482c",
+    "createdAt": "2026-10-08T18:03:56.669Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "ed84b155-c571-4c2c-8ef4-72eb160364af",
+    "createdAt": "2026-10-08T18:03:52.889Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "56b0353d-179a-47eb-8c40-e9d5ff80b0fa",
+    "createdAt": "2026-10-08T18:03:49.635Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "d1912773-a977-4b35-9a8a-640e01373b1d",
+    "createdAt": "2026-10-08T18:03:46.008Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "15cd915f-5b8b-434a-92ed-86e3ddea4f7f",
+    "createdAt": "2026-10-08T18:03:43.232Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "e6870aff-2c81-4646-80dc-274bf37835e6",
+    "createdAt": "2026-10-08T18:03:39.653Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "500bbea5-f72f-4eaa-b3bb-1626c372e587",
+    "createdAt": "2026-10-08T18:01:24.596Z",
+    "isRead": false
+  },
+  {
+    "type": "wa_disconnected",
+    "title": "🔴 WhatsApp Terputus",
+    "message": "Koneksi WhatsApp terputus. Kode: 440.",
+    "id": "8ea20c34-1b3d-4359-bec7-1dc5d86b7ec7",
+    "createdAt": "2026-10-08T18:01:20.762Z",
+    "isRead": false
+  },
+  {
+    "type": "system_warning",
+    "title": "Diagnostic Test Notification",
+    "message": "Notification pipeline verification passed.",
+    "id": "f9c80422-39e7-412b-be8f-85cd100f521f",
+    "createdAt": "2026-10-08T17:53:51.275Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari ggrandya",
+    "message": "kelengkapan\n-lq berries series 75%\n-lq dari nixx masih segel\n-pemakaian 2 minggu\n-casan nixx\n-no filter nixx \n-ct masih baru",
+    "referenceId": "AC4C45D92EEDCB6FC35A2CF1C32DA3EE",
+    "id": "0caa959d-de7f-4e1d-8460-af3cb7a4672f",
+    "createdAt": "2026-10-08T17:52:41.303Z",
+    "isRead": true
+  },
+  {
+    "type": "deleted_message",
+    "title": "⚠️ Pesan Dihapus Terdeteksi!",
+    "message": "Pesan dari Asep (Asep) telah dihapus pengirim, arsip tersimpan!",
+    "referenceId": "0e5a87fc-c1a7-4329-b429-048ba7671374",
+    "id": "3b26395d-436e-4359-ace6-2d4544847c9f",
+    "createdAt": "2026-10-08T17:51:24.299Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Asep",
+    "message": "[text]",
+    "referenceId": "A53DBFECEBC7FFD4C0DBAC45339CE25B",
+    "id": "be9e55f0-7a86-4069-8968-bb304d728c74",
+    "createdAt": "2026-10-08T17:51:24.299Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Asep",
+    "message": "[image]",
+    "referenceId": "A5F211714C7645E9F870C04DA74C52C3",
+    "id": "0dcf6a4b-4833-4467-bc30-13dafcbd2d98",
+    "createdAt": "2026-10-08T17:51:20.823Z",
+    "isRead": true
+  },
+  {
+    "type": "new_status",
+    "title": "🌟 Status Baru Terdeteksi",
+    "message": "Status baru dari Asep (text) otomatis tersimpan!",
+    "referenceId": "A5072DDFB183D3752C3B2A5106735DDF",
+    "id": "779f4f31-8b5c-4bf3-a8ed-a187bad534c2",
+    "createdAt": "2026-10-08T17:49:41.705Z",
+    "isRead": true
+  },
+  {
+    "type": "new_status",
+    "title": "🌟 Status Baru Terdeteksi",
+    "message": "Status baru dari Asep (photo) otomatis tersimpan!",
+    "referenceId": "A5E9E4A57DA1874D7B4FD7C6A5B24193",
+    "id": "f388a0db-7142-4b91-9f3a-d935b634aee8",
+    "createdAt": "2026-10-08T17:48:54.151Z",
+    "isRead": true
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "641dafb2-4c21-4f98-94a2-b0b32e480b9d",
+    "createdAt": "2026-10-08T17:47:10.193Z",
+    "isRead": true
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "952ff193-246c-4db7-af9c-1e0e40aaef0c",
+    "createdAt": "2026-10-08T17:47:02.100Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "AC8CC4E7946F88F42707A32CEE1DF129",
+    "id": "5e17565c-9cd4-40ef-a60e-b3d3a99ce1d5",
+    "createdAt": "2026-10-08T17:37:36.180Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "mwahahaha",
+    "referenceId": "3EB075846B75BD51DD8716",
+    "id": "a42259d4-7aba-41be-a5ae-407c6c944571",
+    "createdAt": "2026-10-08T17:37:25.968Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "usename arch ku tak kasih lonelycatboy",
+    "referenceId": "3EB0FED969865E9B4E4767",
+    "id": "7908bb10-91e4-47cc-8b20-883bb9292043",
+    "createdAt": "2026-10-08T17:37:18.075Z",
+    "isRead": true
+  },
+  {
+    "type": "media_failed",
+    "title": "⚠️ Media Download Gagal",
+    "message": "Gagal mendownload sticker dari Slobodan Milosevic: fetch failed",
+    "id": "068b0f6e-d0c9-4798-af1f-591ea6634c78",
+    "createdAt": "2026-10-08T17:37:08.260Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "3EB08293EED7BA69B25092",
+    "id": "822be122-36f6-4a32-9d0c-3b5641ba6311",
+    "createdAt": "2026-10-08T17:37:02.380Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "AC47F0DD69BDBFEFC1328C3A22A68FCF",
+    "id": "0c8961f9-8598-43dd-bd68-2eda4156f2df",
+    "createdAt": "2026-10-08T17:36:32.293Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "mwhaahahha",
+    "referenceId": "3EB088EE84778D3C83D064",
+    "id": "690feb32-1289-423e-8359-39cef2cda5da",
+    "createdAt": "2026-10-08T17:36:04.237Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "just cute arch user",
+    "referenceId": "3EB04823C32682D23BB9A1",
+    "id": "02c88b9c-4433-461e-b0e3-b594ad989232",
+    "createdAt": "2026-10-08T17:36:03.211Z",
+    "isRead": true
+  },
+  {
+    "type": "media_failed",
+    "title": "⚠️ Media Download Gagal",
+    "message": "Gagal mendownload sticker dari Slobodan Milosevic: fetch failed",
+    "id": "c0218648-0631-4bbd-9238-486da0aaf616",
+    "createdAt": "2026-10-08T17:35:48.246Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "3EB08111CF62A1D75A6B43",
+    "id": "6b19be06-07a2-4c58-88f6-4f6908b56c3c",
+    "createdAt": "2026-10-08T17:35:42.747Z",
+    "isRead": true
+  },
+  {
+    "type": "media_failed",
+    "title": "⚠️ Media Download Gagal",
+    "message": "Gagal mendownload sticker dari Slobodan Milosevic: fetch failed",
+    "id": "5b52254a-5ff9-4e7d-8897-56215d3525f3",
+    "createdAt": "2026-10-08T17:35:28.247Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "3EB04AC282F9B0706B5775",
+    "id": "cbbdffd5-4079-4f80-b41e-e06b68ca7f1e",
+    "createdAt": "2026-10-08T17:35:21.934Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "ACDDEADEADDDC0517CD192DED934F639",
+    "id": "b253d4c3-189a-4970-a38a-4f4e4cbefd29",
+    "createdAt": "2026-10-08T17:34:59.274Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Pantes",
+    "referenceId": "AC90CAC653663B3400492EF041919328",
+    "id": "79435745-deca-4ce1-8aba-22900eec4e37",
+    "createdAt": "2026-10-08T17:34:57.572Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "aku cuman femboy tersesat",
+    "referenceId": "3EB0EB3B8E29641080E8E7",
+    "id": "10ee3f9a-3860-41f7-9f32-655265b6b91b",
+    "createdAt": "2026-10-08T17:34:45.383Z",
+    "isRead": true
+  },
+  {
+    "type": "media_failed",
+    "title": "⚠️ Media Download Gagal",
+    "message": "Gagal mendownload sticker dari Slobodan Milosevic: fetch failed",
+    "id": "150e2edd-dc1f-48fc-ae67-21da1525a6eb",
+    "createdAt": "2026-10-08T17:34:38.237Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "3EB0EF0E763681ED33305A",
+    "id": "62c13a89-f45d-4c30-a0f2-fda1803ed979",
+    "createdAt": "2026-10-08T17:34:32.879Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "aku bukan hacker",
+    "referenceId": "3EB0D5B04D5B242593DA09",
+    "id": "ead41de1-8f74-4e8a-b354-101dd4c3ffac",
+    "createdAt": "2026-10-08T17:34:22.152Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Anarchist of the False Network",
+    "message": "[sticker]",
+    "referenceId": "A55DF66B9D169A9D1B5EBC1664364329",
+    "id": "ff42a132-3e81-4ce2-8103-f3b5f3bc5bcf",
+    "createdAt": "2026-10-08T17:33:04.225Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "AC75BC66C730C29732CFA00D94B22FD2",
+    "id": "3560111e-fe1e-4405-9c9b-8ae805dee817",
+    "createdAt": "2026-10-08T17:32:50.171Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Sticker ente aneh² ae",
+    "referenceId": "AC8CCDA07F97E34A27BDCB60449D7AB1",
+    "id": "71a1d640-c572-4b1f-bd1b-bfaad7e245c8",
+    "createdAt": "2026-10-08T17:32:48.879Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "nge hack pun percuma kalau tools nya kagak tahu",
+    "referenceId": "3EB0CF93EBF6A6A3FD537C",
+    "id": "2f697daa-1e18-4a19-90b7-e2dd2285b1b5",
+    "createdAt": "2026-10-08T17:32:14.892Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "AC8BF6E9CEBC325ED635D6452BAF6DB5",
+    "id": "c86bfec3-b535-4137-8d7b-c3bae9e0fed3",
+    "createdAt": "2026-10-08T17:32:08.201Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "i dont know mau ngapain",
+    "referenceId": "3EB0CB0BBCEF47F00841F3",
+    "id": "efa7487f-b5f8-44a9-ba60-f5e8a83af0f6",
+    "createdAt": "2026-10-08T17:31:53.174Z",
+    "isRead": true
+  },
+  {
+    "type": "media_failed",
+    "title": "⚠️ Media Download Gagal",
+    "message": "Gagal mendownload sticker dari Slobodan Milosevic: fetch failed",
+    "id": "a967076f-2c2d-4ba3-87d4-552706a70570",
+    "createdAt": "2026-10-08T17:31:48.210Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "3EB0C8817678555E218DC2",
+    "id": "5eb523de-30f5-4caa-b8c4-dd9c46916061",
+    "createdAt": "2026-10-08T17:31:41.174Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "AC8BF6E9CEBC325ED635D6452BAF6DB5",
+    "id": "2a61f6f2-3255-4c21-977b-12b3bef99a63",
+    "createdAt": "2026-10-08T17:31:24.688Z",
+    "isRead": true
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "2a8cd88c-da32-4f12-a9de-b33ffe24b043",
+    "createdAt": "2026-10-08T17:30:37.929Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "ACBFB24E9BDEA714488990B8C6232861",
+    "id": "ced5e515-0a59-45fa-a5b0-ab43eb7e79cb",
+    "createdAt": "2026-10-08T17:30:22.724Z",
+    "isRead": true
+  },
+  {
+    "type": "wa_connected",
+    "title": "🟢 WhatsApp Terhubung",
+    "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
+    "id": "486617a7-8ea5-45b2-951b-ed2199acdcfa",
+    "createdAt": "2026-10-08T17:30:16.434Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "Gw lupa nyebutnya apa",
+    "referenceId": "ACA8004475E48B43E0D1A3202D213B86",
+    "id": "37254868-afe7-4d4f-8919-672462df9a1a",
+    "createdAt": "2026-10-08T17:30:02.047Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "Anunya Samsung sat",
+    "referenceId": "ACEA3F8B57FE8B5B68051729CF5DE82B",
+    "id": "2d0ec49a-6423-4a77-b941-469898bbb76a",
+    "createdAt": "2026-10-08T17:29:53.143Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "One UI",
+    "referenceId": "AC4CA5D1BEECA9E508D0E09A27D541B4",
+    "id": "ca306ef8-b7ae-47ec-a6a7-8948657c85ab",
+    "createdAt": "2026-10-08T17:29:13.798Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "OS nya",
+    "referenceId": "AC6AC50A2351D8AC7029326BD4FDE5F0",
+    "id": "e34e8908-84fa-462d-bfb7-d07f6b9bb098",
+    "createdAt": "2026-10-08T17:28:51.393Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "Kamu pakai apa?",
+    "referenceId": "AC8B8F0B8C393443FC2C68EB4B8EEEF1",
+    "id": "7df031b8-6666-4fdd-87e2-aef71689b687",
+    "createdAt": "2026-10-08T17:28:23.696Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Ooo",
+    "referenceId": "AC21160AF94E236694E9D375BB0F0423",
+    "id": "197f83b1-b9da-4bd4-a459-009aa0c10cc4",
+    "createdAt": "2026-10-08T17:26:27.713Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "AC9946CD1DA1337D0885DF6509455421",
+    "id": "7747a3ee-a34f-425d-ad28-ecf07bd59d98",
+    "createdAt": "2026-10-08T17:26:03.308Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "Gw dapetnya cuman wallpaper kosong dengan terminal",
+    "referenceId": "AC0C977AE43D988B7751781A448F4930",
+    "id": "5b079c7d-c941-4290-9e68-e037e0eb601c",
+    "createdAt": "2026-10-08T17:25:57.139Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Maksud?",
+    "referenceId": "AC9E9F1F1B10CE31409C2160D77E7D40",
+    "id": "98d799a9-dc48-4a1e-912d-018a6e14e4ba",
+    "createdAt": "2026-10-08T17:25:35.342Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Mashio Hasow",
+    "message": "too bloated btw, mending artix atau gentoo",
+    "referenceId": "AC918C4BD2FB7959C97415138B497B64",
+    "id": "8ae80bb4-4ca8-4445-b759-d627ac3e5b71",
+    "createdAt": "2026-10-08T17:25:22.840Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "Apa yang membuat mu berpikir begitu kalau saja yang lu dapat cuman wallpaper",
+    "referenceId": "AC38C5297F5200D358A9B0F59427E7FD",
+    "id": "725ca4c0-7812-4560-99e7-89ed7e215219",
+    "createdAt": "2026-10-08T17:24:34.577Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari habib",
+    "message": "unique Nick service name 🤣 hahha",
+    "referenceId": "AC7CD2619E264E6F8EAF9263B23D783D",
+    "id": "9e46d46f-4c17-4eda-bbca-86d075e487cb",
+    "createdAt": "2026-10-08T17:24:32.569Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Mashio Hasow",
+    "message": "[sticker]",
+    "referenceId": "AC42F31BCC5D203B5C72B91F8D596065",
+    "id": "0401db9d-e92e-45a7-af55-2355e3f57c41",
+    "createdAt": "2026-10-08T17:24:05.774Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari habib",
+    "message": "🤣",
+    "referenceId": "ACD146472E3116A3D04EC3024E3A9E7F",
+    "id": "e2c465be-9189-414b-9d6b-66e99c1f22bc",
+    "createdAt": "2026-10-08T17:23:57.258Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Mashio Hasow",
+    "message": "tf is kuntulservice 💔✌️",
+    "referenceId": "AC7A1B70A8CDCDC910350BF0E39CEAAB",
+    "id": "42324bdb-ef3a-4e64-8e3f-d0930dcdb3d5",
+    "createdAt": "2026-10-08T17:23:35.694Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari zikk",
+    "message": "[text]",
+    "referenceId": "A5BF210F8133DDDCEFEBAB3D3A7B2CFC",
+    "id": "d54e791e-6153-458d-9251-0a42e50bc3bb",
+    "createdAt": "2026-10-08T17:23:01.492Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Ane pakai mint atau zori  lag cuy, wa, fb dll",
+    "referenceId": "AC1A06D64888B9D2F1728212100675E6",
+    "id": "4bd02720-1c3c-4415-a185-d09ccbee6afa",
+    "createdAt": "2026-10-08T17:21:01.403Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Buset, ngak berat kah?",
+    "referenceId": "AC4C517F8A33684C55FCBACED3B8E988",
+    "id": "0f66216b-0d0a-4de3-af58-f08aef5b329b",
+    "createdAt": "2026-10-08T17:20:40.365Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "ARCH btw",
+    "referenceId": "ACDA930B9192E8591328C15C0254D25A",
+    "id": "ba747e19-449f-4360-b6c7-79716b7d7442",
+    "createdAt": "2026-10-08T17:20:13.541Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "laptop",
+    "referenceId": "ACDD13D35F0A8E28813106E1624091D4",
+    "id": "33f45393-8ea1-44b0-86a9-670168682861",
+    "createdAt": "2026-10-08T17:20:12.152Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[sticker]",
+    "referenceId": "AC0600489DF98778EE3614825E717EFB",
+    "id": "a120da34-95a1-45ad-9374-bb079eff662b",
+    "createdAt": "2026-10-08T17:20:07.511Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "[text]",
+    "referenceId": "AC228F1CAE88CDB634A532047BDC3B56",
+    "id": "240f5207-5029-4fea-9c6b-c63e420d9d2c",
+    "createdAt": "2026-10-08T17:19:43.796Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Ini terus pakai apa nge chatnya",
+    "referenceId": "AC37E63C024FA366C962BDDB1FF8694F",
+    "id": "3acc595e-28a4-4e3c-8b69-cf24ab2b18e4",
+    "createdAt": "2026-10-08T17:19:37.634Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari موسىى",
+    "message": "Laj",
+    "referenceId": "ACA2C484CABC2814943507FBC6C7713E",
+    "id": "0892dd85-dcf1-4119-b688-009052d5377f",
+    "createdAt": "2026-10-08T17:19:27.585Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "[sticker]",
+    "referenceId": "ACB500BFAEF6E608AA604830723DE3F4",
+    "id": "f3f835dc-d6df-4fea-ab09-b43ab4aa0c6b",
+    "createdAt": "2026-10-08T17:19:19.036Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "Aku udah jarang di hp",
+    "referenceId": "AC28F5358FC9E62274AD8220AC23BED3",
+    "id": "2eecde03-dd1d-4945-b8c4-0226a2fadcf3",
+    "createdAt": "2026-10-08T17:19:14.721Z",
+    "isRead": true
+  },
+  {
+    "type": "new_message",
+    "title": "Pesan baru dari Slobodan Milosevic",
+    "message": "I don't know",
+    "referenceId": "ACAF66D2A790DFD6727B5DE017B1D548",
+    "id": "c415af39-0f29-4108-85f0-bc7bbe524048",
+    "createdAt": "2026-10-08T17:19:04.755Z",
+    "isRead": true
+  },
+  {
     "type": "wa_connected",
     "title": "🟢 WhatsApp Terhubung",
     "message": "Akun RENDI.M.E 🗿🗿 (6289519450908) berhasil terhubung dan siap memantau pesan.",
     "id": "9c360446-c29c-4362-a83d-3c871253b2f7",
     "createdAt": "2026-10-08T17:18:15.690Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_status",
@@ -14,7 +1070,7 @@
     "referenceId": "AC93399B74168FB0677FE8D56BD39FBB",
     "id": "20d77718-34ac-4473-ae2e-be1de844555c",
     "createdAt": "2026-10-08T17:15:50.064Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -23,7 +1079,7 @@
     "referenceId": "ACFFCFD3F98EBB889F40BC3904D62887",
     "id": "256bccef-9bff-48e6-afc1-f11818945a12",
     "createdAt": "2026-10-08T17:15:27.302Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_status",
@@ -32,7 +1088,7 @@
     "referenceId": "ACA79305A97A03A7F7FEE2061CEE7631",
     "id": "fb504def-cb16-409f-b664-6790536d8b6e",
     "createdAt": "2026-10-08T17:14:26.359Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -41,7 +1097,7 @@
     "referenceId": "AC6DFD64EB4A19A6574FD63737933050",
     "id": "00a1dc80-a889-4b32-97ee-9ba6e97c62d9",
     "createdAt": "2026-10-08T17:14:15.297Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -50,7 +1106,7 @@
     "referenceId": "ACBA1E259FA6F9A73871E8FBD44A9617",
     "id": "1307d26e-72fe-4d41-b4f9-f6f66017881e",
     "createdAt": "2026-10-08T17:14:09.988Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -59,7 +1115,7 @@
     "referenceId": "ACE676E7DB0658C513DF38FBE5612A95",
     "id": "40b1a630-63ba-4d43-a26e-83701e86dbc0",
     "createdAt": "2026-10-08T17:13:46.714Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -68,7 +1124,7 @@
     "referenceId": "AC08E572657251C468B6545875E645AE",
     "id": "72dead2e-df8d-4628-8726-fb2c711488ce",
     "createdAt": "2026-10-08T17:13:20.483Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -77,14 +1133,6 @@
     "referenceId": "AC1B729D3F59AF72BC7AA0FDFAAB4C81",
     "id": "112e2aad-7fe0-4e7e-a7af-03fdbbf19980",
     "createdAt": "2026-10-08T17:13:14.101Z",
-    "isRead": false
-  },
-  {
-    "type": "system_warning",
-    "title": "Diagnostic Test Notification",
-    "message": "Notification pipeline verification passed.",
-    "id": "5fa80543-101d-4010-b63a-48a0a4270cf1",
-    "createdAt": "2026-10-08T17:13:07.014Z",
     "isRead": true
   },
   {
@@ -94,7 +1142,7 @@
     "referenceId": "AC66D0FDE6E5471AE57A17868AED7046",
     "id": "6b999d02-2ed4-4f46-b39d-de3840f090e5",
     "createdAt": "2026-10-08T17:12:54.307Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_status",
@@ -103,7 +1151,7 @@
     "referenceId": "ACAFB6266F95F3648DDBECEC56971D51",
     "id": "c4113bf2-5308-4552-a796-9edb33d6c536",
     "createdAt": "2026-10-08T17:12:47.304Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_status",
@@ -112,7 +1160,7 @@
     "referenceId": "AC3C9CBA1857A484BE322ECDEE32A7ED",
     "id": "55c73a5d-4bdc-46c7-999c-0a53fa51a662",
     "createdAt": "2026-10-08T17:12:37.288Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_status",
@@ -121,7 +1169,7 @@
     "referenceId": "AC9B9EBA82EDA47E5A0B77C8E1821CCC",
     "id": "a95a5045-6cad-43ce-a5f9-ff87dd38b9da",
     "createdAt": "2026-10-08T17:12:27.844Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -130,7 +1178,7 @@
     "referenceId": "AC4DEA2B3C6F366BD3236690C76582F3",
     "id": "387f98e1-ef47-4053-afb5-dd9c87ab3bdc",
     "createdAt": "2026-10-08T17:12:08.759Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -139,7 +1187,7 @@
     "referenceId": "AC5C68C9B02F714A853C786E88D791A6",
     "id": "36e1ec7b-9347-43e0-8910-7ccce142a880",
     "createdAt": "2026-10-08T17:12:04.931Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "deleted_message",
@@ -148,7 +1196,7 @@
     "referenceId": "ee710745-2a65-4608-bcc3-208e1af9ea1d",
     "id": "e41b5fef-6fb9-4cc0-a9e2-6192365b3129",
     "createdAt": "2026-10-08T17:11:57.203Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -157,7 +1205,7 @@
     "referenceId": "AC91AA96621775E04A934BBE3A1F7EC8",
     "id": "0680c171-445c-455b-beef-b328fc5b0256",
     "createdAt": "2026-10-08T17:11:57.203Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -166,7 +1214,7 @@
     "referenceId": "AC1C8BC9B6F70F021F4E78822A3D37EF",
     "id": "0a4d91ea-3fe6-4eea-8d28-5625dad4d841",
     "createdAt": "2026-10-08T17:11:52.375Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -175,7 +1223,7 @@
     "referenceId": "ACEB94FBA3F9532285FB1AC15C25A0A0",
     "id": "4f974f7f-4932-49dd-a47a-d5da647f554a",
     "createdAt": "2026-10-08T17:11:51.567Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -184,7 +1232,7 @@
     "referenceId": "AC526C32062ABCB5F77A068BA6332B4B",
     "id": "ef404ee2-e0d6-420b-9b90-84f62cb164a9",
     "createdAt": "2026-10-08T17:11:46.530Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -193,7 +1241,7 @@
     "referenceId": "AC526C32062ABCB5F77A068BA6332B4B",
     "id": "b351f4f2-2fb8-44ce-8b7c-3518c58cbad7",
     "createdAt": "2026-10-08T17:11:34.266Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -202,7 +1250,7 @@
     "referenceId": "AC794878D9A10F14F61A8B215B767BFC",
     "id": "2239676d-3941-454d-b545-150b1ad5ea33",
     "createdAt": "2026-10-08T17:11:32.522Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -211,7 +1259,7 @@
     "referenceId": "ACF37046EB45383E3B4202F1B652C714",
     "id": "543dc85e-471b-4f10-8beb-758e3c42e547",
     "createdAt": "2026-10-08T17:11:31.145Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -220,7 +1268,7 @@
     "referenceId": "ACFB481AF57D73DEC5F42C5408735F62",
     "id": "e3807273-9fd8-444d-aa3a-d177acf9f699",
     "createdAt": "2026-10-08T17:11:23.331Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -229,7 +1277,7 @@
     "referenceId": "AC75F330EEB81BD452C847CE150F7801",
     "id": "a9d0d2f8-9436-4f58-8d7c-7be91da2d364",
     "createdAt": "2026-10-08T17:10:59.672Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -238,7 +1286,7 @@
     "referenceId": "ACF37046EB45383E3B4202F1B652C714",
     "id": "a06512d4-a97a-4d7e-9926-84792a5d24ba",
     "createdAt": "2026-10-08T17:10:54.741Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -247,7 +1295,7 @@
     "referenceId": "AC31E1359A3A0E5BD4AC50F6328A88BE",
     "id": "a4a9f9f8-fa98-4797-867e-266b1c3b1033",
     "createdAt": "2026-10-08T17:10:41.462Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "deleted_message",
@@ -256,7 +1304,7 @@
     "referenceId": "453210ad-fd3a-4ed1-8bfe-5ee0867c525e",
     "id": "5a3cce13-0628-47f0-97ce-797cbfc0425e",
     "createdAt": "2026-10-08T17:10:38.818Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -265,7 +1313,7 @@
     "referenceId": "A53879707BF41BD92CA22D7AE2014B99",
     "id": "ea7cd372-2924-445d-a6c6-f04be48c0565",
     "createdAt": "2026-10-08T17:10:38.818Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -274,7 +1322,7 @@
     "referenceId": "A5230CD2F761276171945DAA008FA631",
     "id": "bffbe5c9-2c5a-447e-a68e-a6ec18191384",
     "createdAt": "2026-10-08T17:10:35.469Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -283,7 +1331,7 @@
     "referenceId": "ACABAA6506A9495E37E32E4520E45E3A",
     "id": "181e1a41-d07e-46fc-addd-2c87866bcaa0",
     "createdAt": "2026-10-08T17:10:31.049Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -292,7 +1340,7 @@
     "referenceId": "ACB75814976F15A9CF42A5B375BD84D3",
     "id": "71422fa3-2103-4f4c-a4f3-c6f287cf63c1",
     "createdAt": "2026-10-08T17:09:52.549Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -301,7 +1349,7 @@
     "referenceId": "AC732277B7B5BD4A37E2AAC872A56900",
     "id": "048fa379-9bdf-4f2e-bb7c-8f5f67b0a2da",
     "createdAt": "2026-10-08T17:09:20.409Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -310,7 +1358,7 @@
     "referenceId": "AC732277B7B5BD4A37E2AAC872A56900",
     "id": "f00ff616-c99b-415c-931d-f89c54a45c4c",
     "createdAt": "2026-10-08T17:08:57.132Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "new_message",
@@ -319,7 +1367,7 @@
     "referenceId": "A501772A3797AA7EDBC29B8EBDC7C6D8",
     "id": "65d8a78c-7f46-462f-b840-73b0419374fa",
     "createdAt": "2026-10-08T17:08:48.427Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_connected",
@@ -327,7 +1375,7 @@
     "message": "Akun 6289519450908 (6289519450908) berhasil terhubung dan siap memantau pesan.",
     "id": "c316c7c2-793a-42b6-886f-be70a0fc1ded",
     "createdAt": "2026-10-08T17:08:00.579Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -335,7 +1383,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 515.",
     "id": "669fe941-1381-4a5b-a87e-c79d35201382",
     "createdAt": "2026-10-08T17:07:48.342Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -343,7 +1391,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "e1f963b9-c971-43af-b64a-142c558f2710",
     "createdAt": "2026-10-08T17:06:45.789Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -351,7 +1399,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "7f8a50fd-fc82-4bdc-bfab-02d095ff95db",
     "createdAt": "2026-10-08T17:05:41.023Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -359,7 +1407,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 515.",
     "id": "2d03162e-0dfe-40ce-a39c-6251079e8724",
     "createdAt": "2026-10-08T17:04:23.562Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -367,7 +1415,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "15b149fc-6151-4876-b5ff-0caa79ea6312",
     "createdAt": "2026-10-08T17:03:39.368Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -375,7 +1423,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "645c32c0-cd3f-49aa-8238-a272a2366dac",
     "createdAt": "2026-10-08T17:03:27.169Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -383,7 +1431,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "95a715ea-17ca-48d3-88ce-3adf9eb94803",
     "createdAt": "2026-10-08T17:02:02.560Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -391,7 +1439,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "a09a2b37-98c7-4eef-8afa-db5c6eece6be",
     "createdAt": "2026-10-08T17:00:22.871Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -399,7 +1447,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "0017e4b7-9a5b-4fd3-94a2-61f291344cd5",
     "createdAt": "2026-10-08T16:57:23.401Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -407,7 +1455,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "289af59d-6bd1-416f-9eba-23183df44d98",
     "createdAt": "2026-10-08T16:57:07.308Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -415,7 +1463,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "429b1d52-6a43-497a-b74e-0efb94f0a035",
     "createdAt": "2026-10-08T16:55:26.403Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -423,7 +1471,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "f286ec6c-cd1b-4d3e-a56c-2ff8eddfaf42",
     "createdAt": "2026-10-08T16:54:15.856Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -431,7 +1479,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "75a8ed4a-fb0a-447f-8d36-7defb834e0e9",
     "createdAt": "2026-10-08T16:54:00.780Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -439,7 +1487,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "d424bf11-f657-44d0-aaf6-0942eb5ca64b",
     "createdAt": "2026-10-08T16:53:01.549Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -447,7 +1495,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "10c1ccd9-edb8-4e8e-af06-727deb43be20",
     "createdAt": "2026-10-08T16:50:49.489Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -455,7 +1503,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "8369d2fb-df9b-49cc-9e30-04d1db570c7c",
     "createdAt": "2026-10-08T16:49:50.333Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -463,7 +1511,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "84ed3d4c-51c2-4569-a9a0-f3f6e55fffe3",
     "createdAt": "2026-10-08T16:47:38.404Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -471,7 +1519,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "dc111ae0-7aa2-4d81-bf12-5324097d4e7b",
     "createdAt": "2026-10-08T16:46:39.188Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -479,7 +1527,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "34bcfe2a-1b45-4994-994c-23c21798f2ec",
     "createdAt": "2026-10-08T16:44:27.237Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -487,7 +1535,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "0f5fb3fd-ebe0-47d2-8f2e-514e1afc5354",
     "createdAt": "2026-10-08T16:43:41.643Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -495,7 +1543,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "8d151e7b-c259-4a62-9fcd-4a1811145f77",
     "createdAt": "2026-10-08T16:41:38.018Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -503,7 +1551,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "364a39d1-00c2-4622-817e-223647a6c536",
     "createdAt": "2026-10-08T16:40:56.409Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -511,7 +1559,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "ce7af001-3067-4aaf-a4f1-2208674a0892",
     "createdAt": "2026-10-08T16:40:23.569Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -519,7 +1567,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 408.",
     "id": "3ec1b364-90ba-4597-aadb-fc30e252b8e5",
     "createdAt": "2026-10-08T16:40:18.766Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -527,7 +1575,7 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "643ccd73-e2ae-45a2-a244-eea3324f5902",
     "createdAt": "2026-10-08T16:38:54.963Z",
-    "isRead": false
+    "isRead": true
   },
   {
     "type": "wa_disconnected",
@@ -535,22 +1583,6 @@
     "message": "Koneksi WhatsApp terputus. Kode: 401.",
     "id": "b86e3293-7998-4393-a1d4-2d8f96190b5a",
     "createdAt": "2026-10-08T16:38:13.517Z",
-    "isRead": false
-  },
-  {
-    "type": "system_warning",
-    "title": "Diagnostic Test Notification",
-    "message": "Notification pipeline verification passed.",
-    "id": "cf6816e0-9ac0-42bd-b97f-e6a25289d5a6",
-    "createdAt": "2026-10-08T16:36:27.725Z",
-    "isRead": true
-  },
-  {
-    "type": "system_warning",
-    "title": "Diagnostic Test Notification",
-    "message": "Notification pipeline verification passed.",
-    "id": "1f755e60-d8dd-4cfc-8f92-5d2e54331500",
-    "createdAt": "2026-10-08T15:54:09.590Z",
     "isRead": true
   }
 ]

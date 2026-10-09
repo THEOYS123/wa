@@ -312,7 +312,35 @@ export const WhatsAppConnectionPage: React.FC = () => {
 
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-semibold border border-emerald-500/20">
                   <ShieldCheck className="w-4 h-4" />
-                  <span>Sesi Multi-Device Aktif & Auto-Save Berjalan</span>
+                  <span>Sesi Multi-Device Aktif & Auto-Save Berjalan Real-Time</span>
+                </div>
+
+                <div className="pt-4 max-w-md mx-auto space-y-3">
+                  <div className="p-3.5 rounded-xl bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700/60 text-xs text-zinc-600 dark:text-zinc-300 text-left space-y-1">
+                    <div className="font-semibold text-zinc-900 dark:text-white flex items-center gap-1.5">
+                      <KeyRound className="w-3.5 h-3.5 text-emerald-500" />
+                      <span>Ingin Menghubungkan Akun / Nomor Lain?</span>
+                    </div>
+                    <p className="text-[11px] text-zinc-500 dark:text-zinc-400">
+                      WhatsApp hanya mengizinkan 1 sesi multi-device aktif per instans bot. Untuk meminta kode pairing baru bagi nomor lain, silakan klik tombol Logout di bawah ini untuk mereset sesi lama terlebih dahulu.
+                    </p>
+                  </div>
+
+                  <button
+                    onClick={() =>
+                      setConfirmModal({
+                        isOpen: true,
+                        title: 'Tautkan Akun / Nomor WhatsApp Baru',
+                        message:
+                          'Sesi saat ini akan dikeluarkan (logout) sehingga Anda dapat memasukkan nomor telepon baru untuk meminta Pairing Code resmi.',
+                        action: handleLogout,
+                      })
+                    }
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 text-xs font-semibold transition-colors border border-zinc-200 dark:border-zinc-700"
+                  >
+                    <RefreshCw className="w-3.5 h-3.5 text-amber-500" />
+                    <span>Ganti Akun / Minta Pairing Code Baru</span>
+                  </button>
                 </div>
               </div>
             ) : (
